@@ -1,0 +1,28 @@
+{
+    "gem_name": "MiscellaneousAgricultureAssets",
+    "version": "1.0.0",
+    "display_name": "MiscellaneousAgricultureAssets",
+    "license": "CC BY-NC 4.0 Robotec.ai with some files under CC0 license",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "origin": "Robotec.ai",
+    "origin_url": "",
+    "type": "Asset",
+    "summary": "Asset pack containing miscellaneous agriculture objects.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "MiscellaneousAgricultureAssets"
+    ],
+    "platforms": [
+        ""
+    ],
+    "icon_path": "preview.png",
+    "requirements": "",
+    "documentation_url": "",
+    "dependencies": [],
+    "repo_uri": "",
+    "compatible_engines": [],
+    "engine_api_dependencies": [],
+    "restricted": "MiscellaneousAgricultureAssets"
+}

@@ -1,0 +1,14 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureMap": "textures/PlanterBox_diff.jpg",
+        "metallic.textureMap": "textures/PlanterBox_metallic.jpg",
+        "normal.flipY": true,
+        "normal.textureMap": "textures/PlanterBox_normal.jpg",
+        "normal.useTexture": false,
+        "roughness.lowerBound": 0.8100000023841858,
+        "roughness.textureMap": "textures/PlanterBox_roughness.jpg",
+        "specularF0.factor": 0.0
+    }
+}
