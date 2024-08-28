@@ -1,0 +1,28 @@
+{
+    "gem_name": "RobotecAgricultureDecorationsAssets",
+    "version": "1.0.0",
+    "display_name": "RobotecAgricultureDecorationsAssets",
+    "license": "Apache-2.0",
+    "license_url": "https://opensource.org/licenses/Apache-2.0",
+    "origin": "RobotecAI",
+    "origin_url": "https://robotec.ai",
+    "type": "Asset",
+    "summary": "Gem with assets used for decorating an agriculture scene.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "RobotecAgricultureDecorationsAssets"
+    ],
+    "platforms": [
+        ""
+    ],
+    "icon_path": "preview.png",
+    "requirements": "",
+    "documentation_url": "",
+    "dependencies": [],
+    "repo_uri": "",
+    "compatible_engines": [],
+    "engine_api_dependencies": [],
+    "restricted": "RobotecAgricultureDecorationsAssets"
+}
