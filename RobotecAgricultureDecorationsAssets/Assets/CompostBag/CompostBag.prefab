@@ -173,10 +173,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1C87515B-3071-5148-BB0A-463F31159C10}",
+                                    "guid": "{C6A5DE8D-C190-5BEE-9BDD-F1288B7A5087}",
                                     "subId": 283663673
                                 },
-                                "assetHint": "assetsfixed/objects/compostbag/models/compostbag.fbx.azmodel"
+                                "assetHint": "compostbag/models/compostbag.fbx.azmodel"
                             }
                         }
                     }
@@ -214,7 +214,7 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{947F2695-9583-57F7-9BD2-39A8D7CCC67E}"
+                                                "guid": "{334EC6FB-43A2-5DA7-99FB-82429ED83B8E}"
                                             }
                                         }
                                     }

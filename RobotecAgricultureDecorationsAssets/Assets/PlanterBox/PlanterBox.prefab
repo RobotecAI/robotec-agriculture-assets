@@ -172,10 +172,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1E2B2610-1588-5B80-B6B0-546C0CC3CCFD}",
+                                    "guid": "{33C5FB68-C698-58C6-AC18-B39D1C0D08A5}",
                                     "subId": 283330070
                                 },
-                                "assetHint": "assetsfixed/objects/planterbox/models/planterbox.fbx.azmodel"
+                                "assetHint": "planterbox/models/planterbox.fbx.azmodel"
                             }
                         }
                     }
@@ -213,7 +213,7 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{47E1F8D9-37B7-5CB2-8DB9-0D7D21807051}"
+                                                "guid": "{B333772A-75A9-50D9-B68D-C12E3F97CD72}"
                                             }
                                         }
                                     }

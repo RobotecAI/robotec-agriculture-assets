@@ -244,10 +244,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{C614DB01-95B1-5243-BD08-C0FC8768BC72}",
+                                    "guid": "{0E031330-1223-582C-82E4-9816CF0AE184}",
                                     "subId": 275249814
                                 },
-                                "assetHint": "assetsfixed/objects/rustedspade/models/rustedspade.fbx.azmodel"
+                                "assetHint": "rustedspade/models/rustedspade.fbx.azmodel"
                             }
                         }
                     }
@@ -285,7 +285,7 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{F8C37F3F-E943-595B-B575-180E7C3F2CD5}"
+                                                "guid": "{AED5A48E-CF58-5491-88F2-774358E164B7}"
                                             }
                                         }
                                     }
