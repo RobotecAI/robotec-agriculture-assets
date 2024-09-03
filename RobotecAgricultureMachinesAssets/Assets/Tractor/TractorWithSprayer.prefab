@@ -1,0 +1,145 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Tractor",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4185775894869197760
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18090046934204167826
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2781239138408340057,
+                "Child Entity Order": [
+                    "Entity_[617539993745610]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17610838786484642200
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 17841244619592272595
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 18048835290319796857
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 542783277605205621
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13832362603852359071
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8672513731914827007
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17536122576321968907,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        0.0,
+                        0.0,
+                        1.5831108093261719
+                    ]
+                }
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[617539993745610]": {
+            "Id": "Entity_[617539993745610]",
+            "Name": "Tractor",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8247007267297531664
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13305927169043337614
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9152510717387815239,
+                    "Child Entity Order": [
+                        "Instance_[15716001999069]/ContainerEntity",
+                        "Instance_[15737476835549]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10277042600268759380,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4259607956125475638
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4651180747332042807
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10019595263532095550
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8641023503480516726
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7187548806575870943
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4259607956125475638,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[15716001999069]": {
+            "Source": "Vehicles/Tractor/TractorNarrow.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[617539993745610]"
+                }
+            ]
+        },
+        "Instance_[15737476835549]": {
+            "Source": "Vehicles/SprayerGeneric/TractorSprayer.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[617539993745610]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.22416448593139648
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4807510904635322]/Components/EditorFixedJointComponent/Configuration/Parent Entity",
+                    "value": "../Instance_[15716001999069]/Entity_[617552878647498]"
+                }
+            ]
+        }
+    }
+}

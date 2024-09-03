@@ -1,0 +1,16 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/Tractor_BaseColor.png",
+        "emissive.enable": true,
+        "emissive.textureMap": "Textures/Tractor_Emissive.png",
+        "general.doubleSided": true,
+        "metallic.textureMap": "Textures/Tractor_Metallic.png",
+        "normal.textureMap": "Textures/Tractor_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/Tractor_Roughness.png",
+        "specularF0.factor": 0.14000000059604645
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/AlmondTreeStump_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "Textures/AlmondTreeStump_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "Textures/AlmondTreeStump_roughness.png"
+    }
+}
