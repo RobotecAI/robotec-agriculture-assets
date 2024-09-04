@@ -52,7 +52,7 @@
     "Entities": {
         "Entity_[2084084021621]": {
             "Id": "Entity_[2084084021621]",
-            "Name": "visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -105,7 +105,7 @@
         },
         "Entity_[2088378988917]": {
             "Id": "Entity_[2088378988917]",
-            "Name": " Lamp rear w",
+            "Name": " RearCentral",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -196,7 +196,7 @@
         },
         "Entity_[2092673956213]": {
             "Id": "Entity_[2092673956213]",
-            "Name": "Wheel_FL_Cover",
+            "Name": "FrontLeftWheelCover",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -205,10 +205,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 271983400
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 278795950
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_ec8fc4b0_a288_5bbc_b6f8_c8b1021b86da_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_99875db5_3e36_5947_9509_9c831ca8e1e0_.fbx.azmodel"
                             }
                         }
                     }
@@ -246,9 +246,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -290,7 +290,7 @@
         },
         "Entity_[2096968923509]": {
             "Id": "Entity_[2096968923509]",
-            "Name": " Lamp rear w",
+            "Name": "RearRight",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -381,7 +381,7 @@
         },
         "Entity_[2101263890805]": {
             "Id": "Entity_[2101263890805]",
-            "Name": "front_left_wheel_link",
+            "Name": "FrontLeftWheel",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -586,7 +586,7 @@
         },
         "Entity_[2109853825397]": {
             "Id": "Entity_[2109853825397]",
-            "Name": "F_Axis",
+            "Name": "FrontAxle",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -595,10 +595,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 273525369
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 275319395
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_6321d432_a700_55a6_a3cb_6f924d5ce81e_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_206b6cff_b4f5_5795_afbe_f0675d6d9892_.fbx.azmodel"
                             }
                         }
                     }
@@ -636,9 +636,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -680,7 +680,7 @@
         },
         "Entity_[2114148792693]": {
             "Id": "Entity_[2114148792693]",
-            "Name": "Steering_Wheel",
+            "Name": "SteeringWheel",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -689,10 +689,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 280306424
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 274342326
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_0deb48b7_2c53_5da1_b231_8bc21d348b87_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_e3b80743_af2f_5346_850c_536e3ca0773b_.fbx.azmodel"
                             }
                         }
                     }
@@ -730,9 +730,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -764,7 +764,7 @@
         },
         "Entity_[2118443759989]": {
             "Id": "Entity_[2118443759989]",
-            "Name": " Lamp rear w",
+            "Name": "RearLeft",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -855,7 +855,7 @@
         },
         "Entity_[2122738727285]": {
             "Id": "Entity_[2122738727285]",
-            "Name": "visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -908,7 +908,7 @@
         },
         "Entity_[2127033694581]": {
             "Id": "Entity_[2127033694581]",
-            "Name": "steering_front_right_link",
+            "Name": "FrontRightSteering",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -922,8 +922,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 589674686533034623,
                     "Child Entity Order": [
-                        "Entity_[2165688400245]",
-                        "Entity_[2195753171317]"
+                        "Entity_[2195753171317]",
+                        "Entity_[2165688400245]"
                     ]
                 },
                 "EditorHingeJointComponent": {
@@ -1004,7 +1004,7 @@
         },
         "Entity_[2131328661877]": {
             "Id": "Entity_[2131328661877]",
-            "Name": "mount",
+            "Name": "Mount",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -1102,7 +1102,7 @@
         },
         "Entity_[2135623629173]": {
             "Id": "Entity_[2135623629173]",
-            "Name": "camera_link",
+            "Name": "ROSCamera",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -1203,18 +1203,18 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 13856934966627167735,
                     "Child Entity Order": [
-                        "Entity_[2088378988917]",
-                        "Entity_[2311717288309]",
-                        "Entity_[2230112909685]",
-                        "Entity_[2096968923509]",
-                        "Entity_[2118443759989]",
                         "Entity_[2273062582645]",
                         "Entity_[2247292778869]",
                         "Entity_[2225817942389]",
                         "Entity_[2221522975093]",
                         "Entity_[2148508531061]",
+                        "Entity_[2264472648053]",
                         "Entity_[2298832386421]",
-                        "Entity_[2264472648053]"
+                        "Entity_[2088378988917]",
+                        "Entity_[2118443759989]",
+                        "Entity_[2311717288309]",
+                        "Entity_[2096968923509]",
+                        "Entity_[2230112909685]"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -1247,14 +1247,14 @@
                     "Id": 9187123695120895687,
                     "configuration": {
                         "sourceHandle": {
-                            "id": "{6F1DB51D-9651-59C6-A22A-24B5D7CEEA91}",
-                            "path": "Scripts/LightsControl.scriptcanvas"
+                            "id": "{63F0A057-4F1D-5FA7-9E0D-05C02D50D0E2}",
+                            "path": "LightsControl/LightsControl.scriptcanvas"
                         },
                         "sourceName": "LightsControl.scriptcanvas",
                         "propertyOverrides": {
                             "source": {
-                                "id": "{6F1DB51D-9651-59C6-A22A-24B5D7CEEA91}",
-                                "path": "Scripts/LightsControl.scriptcanvas"
+                                "id": "{63F0A057-4F1D-5FA7-9E0D-05C02D50D0E2}",
+                                "path": "LightsControl/LightsControl.scriptcanvas"
                             },
                             "variables": [
                                 {
@@ -1311,7 +1311,7 @@
         },
         "Entity_[2144213563765]": {
             "Id": "Entity_[2144213563765]",
-            "Name": "base_link",
+            "Name": "Main",
             "Components": {
                 "AckermannControlComponent": {
                     "$type": "GenericComponentWrapper",
@@ -1373,17 +1373,16 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 11009724941028651685,
                     "Child Entity Order": [
-                        "Entity_[2139918596469]",
-                        "Entity_[2191458204021]",
-                        "Entity_[2268767615349]",
-                        "Entity_[2277357549941]",
-                        "Entity_[2174278334837]",
                         "Entity_[2152803498357]",
-                        "Entity_[2135623629173]",
-                        "Entity_[2217228007797]",
+                        "Entity_[2268767615349]",
+                        "Entity_[2174278334837]",
+                        "Entity_[2277357549941]",
+                        "Entity_[2139918596469]",
+                        "Entity_[2285947484533]",
                         "Entity_[2212933040501]",
-                        "Entity_[2234407876981]",
-                        "Entity_[2161393432949]"
+                        "Entity_[2191458204021]",
+                        "Entity_[2217228007797]",
+                        "Entity_[2135623629173]"
                     ]
                 },
                 "EditorFixedJointComponent": {
@@ -1453,7 +1452,7 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{2D871F26-1DD3-5278-8F43-2474BE625107}",
+                                    "guid": "{1A980EF2-BCE1-5C2F-B0D6-183BC964D268}",
                                     "subId": 3945814132
                                 },
                                 "assetHint": "tractor/models/tractorsmall_collider.fbx.pxmesh"
@@ -1461,7 +1460,7 @@
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{2D871F26-1DD3-5278-8F43-2474BE625107}",
+                                        "guid": "{1A980EF2-BCE1-5C2F-B0D6-183BC964D268}",
                                         "subId": 3945814132
                                     },
                                     "loadBehavior": "QueueLoad",
@@ -1582,7 +1581,7 @@
         },
         "Entity_[2148508531061]": {
             "Id": "Entity_[2148508531061]",
-            "Name": " Lamp front w",
+            "Name": "FrontLowerRight",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -1668,7 +1667,7 @@
         },
         "Entity_[2152803498357]": {
             "Id": "Entity_[2152803498357]",
-            "Name": "base_link_visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -1682,9 +1681,9 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 15038908157242373350,
                     "Child Entity Order": [
-                        "Entity_[2114148792693]",
                         "Entity_[2307422321013]",
-                        "Entity_[2251587746165]"
+                        "Entity_[2251587746165]",
+                        "Entity_[2114148792693]"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -1714,124 +1713,9 @@
                 }
             }
         },
-        "Entity_[2157098465653]": {
-            "Id": "Entity_[2157098465653]",
-            "Name": "camera2",
-            "Components": {
-                "EditorCameraComponent": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 647722106997941253,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 60.0,
-                            "MakeActiveViewOnActivation": false
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8523898583106999416
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 6142523389023937946
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10984900597734212833
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2685369898195768347
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 1254034161414796991
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 18011381728601351143
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 16488037094038654732
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11007448853379514769
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 8007329873008327173,
-                    "Parent Entity": "Entity_[2234407876981]",
-                    "Transform Data": {
-                        "Translate": [
-                            -0.3742561340332031,
-                            -1.196146011352539,
-                            27.8433837890625
-                        ],
-                        "Rotate": [
-                            -74.2901840209961,
-                            -0.26072514057159424,
-                            0.0733494684100151
-                        ]
-                    }
-                }
-            }
-        },
-        "Entity_[2161393432949]": {
-            "Id": "Entity_[2161393432949]",
-            "Name": "TractorSmall_fbx",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6850260305150194104
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 8690641516272589372
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 7075903244978442520
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8766293013064178629
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 12224012778441594368
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 6334531501340011656
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7928954166701770321
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 10515339000685920440
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 13762558520569520288,
-                    "Parent Entity": "Entity_[2144213563765]",
-                    "Transform Data": {
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            180.0
-                        ]
-                    }
-                }
-            }
-        },
         "Entity_[2165688400245]": {
             "Id": "Entity_[2165688400245]",
-            "Name": "front_right_wheel_link",
+            "Name": "FrontRightWheel",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -1977,7 +1861,7 @@
         },
         "Entity_[2169983367541]": {
             "Id": "Entity_[2169983367541]",
-            "Name": "Wheel_FR_Cover",
+            "Name": "FrontRightWheelCover",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -1986,10 +1870,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 280136821
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 279027520
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_37659e90_4c0c_57ab_aeb5_e76f68122035_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_696f3d8b_21fd_5478_a088_a319cb1841cd_.fbx.azmodel"
                             }
                         }
                     }
@@ -2027,9 +1911,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -2071,7 +1955,7 @@
         },
         "Entity_[2174278334837]": {
             "Id": "Entity_[2174278334837]",
-            "Name": "rear_left_wheel_link",
+            "Name": "RearLeftWheel",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -2236,7 +2120,7 @@
         },
         "Entity_[2178573302133]": {
             "Id": "Entity_[2178573302133]",
-            "Name": "visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2289,7 +2173,7 @@
         },
         "Entity_[2182868269429]": {
             "Id": "Entity_[2182868269429]",
-            "Name": "Wheel_RR",
+            "Name": "RearRightWheel",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -2298,10 +2182,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 281095774
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 278798293
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_3079111e_fd3e_5db5_a3d5_9eddab638c3c_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_62636d8f_8e3d_5f97_adf7_b0de23b4d8a0_.fbx.azmodel"
                             }
                         }
                     }
@@ -2339,9 +2223,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -2383,7 +2267,7 @@
         },
         "Entity_[2187163236725]": {
             "Id": "Entity_[2187163236725]",
-            "Name": "axle_visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2436,7 +2320,7 @@
         },
         "Entity_[2191458204021]": {
             "Id": "Entity_[2191458204021]",
-            "Name": "imu_link",
+            "Name": "Imu",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2526,7 +2410,7 @@
         },
         "Entity_[2195753171317]": {
             "Id": "Entity_[2195753171317]",
-            "Name": "steering_visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2570,74 +2454,9 @@
                 }
             }
         },
-        "Entity_[2200048138613]": {
-            "Id": "Entity_[2200048138613]",
-            "Name": "camera1",
-            "Components": {
-                "EditorCameraComponent": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 647722106997941253,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 60.0,
-                            "MakeActiveViewOnActivation": false
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8523898583106999416
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 6142523389023937946
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10984900597734212833
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2685369898195768347
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 1254034161414796991
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 18011381728601351143
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 16488037094038654732
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11007448853379514769
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 8007329873008327173,
-                    "Parent Entity": "Entity_[2234407876981]",
-                    "Transform Data": {
-                        "Translate": [
-                            -0.7669181823730469,
-                            -9.742851257324219,
-                            4.166167259216309
-                        ],
-                        "Rotate": [
-                            -28.934097290039063,
-                            0.9858610033988953,
-                            -1.7827017307281494
-                        ]
-                    }
-                }
-            }
-        },
         "Entity_[2204343105909]": {
             "Id": "Entity_[2204343105909]",
-            "Name": "steering_visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2683,7 +2502,7 @@
         },
         "Entity_[2208638073205]": {
             "Id": "Entity_[2208638073205]",
-            "Name": "Wheel_FR",
+            "Name": "FrontRightWheel",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -2692,10 +2511,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 284689795
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 285197301
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_0433656d_7db6_50f8_8225_c10c3de43115_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_03663d01_416f_5739_b5dd_4a575ea9dbc5_.fbx.azmodel"
                             }
                         }
                     }
@@ -2733,9 +2552,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -2777,7 +2596,7 @@
         },
         "Entity_[2212933040501]": {
             "Id": "Entity_[2212933040501]",
-            "Name": "lookat_target",
+            "Name": "LookAtTarget",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2827,7 +2646,7 @@
         },
         "Entity_[2217228007797]": {
             "Id": "Entity_[2217228007797]",
-            "Name": "lidar_link",
+            "Name": "Lidar",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2912,7 +2731,7 @@
         },
         "Entity_[2221522975093]": {
             "Id": "Entity_[2221522975093]",
-            "Name": " Lamp front w",
+            "Name": "FrontLowerLeft",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -2998,7 +2817,7 @@
         },
         "Entity_[2225817942389]": {
             "Id": "Entity_[2225817942389]",
-            "Name": " Lamp front w",
+            "Name": "FrontUpperRight",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -3084,7 +2903,7 @@
         },
         "Entity_[2230112909685]": {
             "Id": "Entity_[2230112909685]",
-            "Name": " Lamp rear r",
+            "Name": "RearRightRed",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -3173,70 +2992,9 @@
                 }
             }
         },
-        "Entity_[2234407876981]": {
-            "Id": "Entity_[2234407876981]",
-            "Name": "cameras",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 10198419140618825716
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 6022730239271352462
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 8355474195097501956,
-                    "Child Entity Order": [
-                        "Entity_[2285947484533]",
-                        "Entity_[2200048138613]",
-                        "Entity_[2157098465653]",
-                        "Entity_[2242997811573]"
-                    ]
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 7468994324164992118
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 14446876524783726760
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 16797551686442866495
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 14125607825174069374
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9826395304865771818
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 16165582812272411422,
-                    "Parent Entity": "Entity_[2144213563765]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.4000000059604645,
-                            0.0,
-                            0.855224609375
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -90.0
-                        ]
-                    }
-                }
-            }
-        },
         "Entity_[2238702844277]": {
             "Id": "Entity_[2238702844277]",
-            "Name": "visual",
+            "Name": "Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -3287,74 +3045,9 @@
                 }
             }
         },
-        "Entity_[2242997811573]": {
-            "Id": "Entity_[2242997811573]",
-            "Name": "camera3",
-            "Components": {
-                "EditorCameraComponent": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 647722106997941253,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 60.0,
-                            "MakeActiveViewOnActivation": false
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8523898583106999416
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 6142523389023937946
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10984900597734212833
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2685369898195768347
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 1254034161414796991
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 18011381728601351143
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 16488037094038654732
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11007448853379514769
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 8007329873008327173,
-                    "Parent Entity": "Entity_[2234407876981]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.030517578125,
-                            0.4045276641845703,
-                            0.4596283435821533
-                        ],
-                        "Rotate": [
-                            -13.21658992767334,
-                            0.19381912052631378,
-                            -0.8251744508743286
-                        ]
-                    }
-                }
-            }
-        },
         "Entity_[2247292778869]": {
             "Id": "Entity_[2247292778869]",
-            "Name": " Lamp front w",
+            "Name": "FrontUpperLeft",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -3440,7 +3133,7 @@
         },
         "Entity_[2251587746165]": {
             "Id": "Entity_[2251587746165]",
-            "Name": "Tractor_Alpha",
+            "Name": "CabinGlass",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -3449,10 +3142,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 277227488
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 269907944
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_fac2bb54_e39e_5004_b93d_18c071ba11ab_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_fcdcb982_b71b_5a76_b568_211d5c71fab5_.fbx.azmodel"
                             }
                         }
                     }
@@ -3490,9 +3183,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{BDEE38A9-135E-54A6-9D8C-55006F7F4551}"
+                                                "guid": "{96B349BF-A2BA-5F86-8C3C-D0443F82DCED}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor_alpha.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor_alpha.azmaterial"
                                         }
                                     }
                                 }
@@ -3524,7 +3217,7 @@
         },
         "Entity_[2260177680757]": {
             "Id": "Entity_[2260177680757]",
-            "Name": "Wheel_FL",
+            "Name": "FrontLeftWheel",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -3533,10 +3226,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 272257132
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 276996220
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_beb17c02_6c05_558b_b0f6_eac8cd44f1ca_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_888b2621_231f_5d37_a1a5_d5d93310d01b_.fbx.azmodel"
                             }
                         }
                     }
@@ -3574,9 +3267,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -3618,7 +3311,7 @@
         },
         "Entity_[2264472648053]": {
             "Id": "Entity_[2264472648053]",
-            "Name": " Lamp interrior",
+            "Name": "InterriorDashboard",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -3712,7 +3405,7 @@
         },
         "Entity_[2268767615349]": {
             "Id": "Entity_[2268767615349]",
-            "Name": "axle",
+            "Name": "FrontAxle",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -3726,9 +3419,9 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 4208956931957578210,
                     "Child Entity Order": [
-                        "Entity_[2127033694581]",
+                        "Entity_[2187163236725]",
                         "Entity_[2281652517237]",
-                        "Entity_[2187163236725]"
+                        "Entity_[2127033694581]"
                     ]
                 },
                 "EditorHingeJointComponent": {
@@ -3797,7 +3490,7 @@
         },
         "Entity_[2273062582645]": {
             "Id": "Entity_[2273062582645]",
-            "Name": " Lamp front",
+            "Name": " FrontCentral",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -3883,7 +3576,7 @@
         },
         "Entity_[2277357549941]": {
             "Id": "Entity_[2277357549941]",
-            "Name": "rear_right_wheel_link",
+            "Name": "RearRightWheel",
             "Components": {
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
@@ -4048,7 +3741,7 @@
         },
         "Entity_[2281652517237]": {
             "Id": "Entity_[2281652517237]",
-            "Name": "steering_front_left_link",
+            "Name": "FrontLeftSteering",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -4062,8 +3755,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 2215514069788548280,
                     "Child Entity Order": [
-                        "Entity_[2101263890805]",
-                        "Entity_[2204343105909]"
+                        "Entity_[2204343105909]",
+                        "Entity_[2101263890805]"
                     ]
                 },
                 "EditorHingeJointComponent": {
@@ -4144,7 +3837,7 @@
         },
         "Entity_[2285947484533]": {
             "Id": "Entity_[2285947484533]",
-            "Name": "camera",
+            "Name": "O3DECamera",
             "Components": {
                 "EditorCameraComponent": {
                     "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
@@ -4194,9 +3887,9 @@
                         "$type": "FollowingCameraComponent",
                         "FollowingCameraConfiguration": {
                             "PredefinedViews": [
-                                "Entity_[2200048138613]",
-                                "Entity_[2157098465653]",
-                                "Entity_[2242997811573]"
+                                "",
+                                "",
+                                ""
                             ],
                             "SmoothingLength": 10,
                             "LockZAxis": true
@@ -4206,17 +3899,17 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 8007329873008327173,
-                    "Parent Entity": "Entity_[2234407876981]",
+                    "Parent Entity": "Entity_[2144213563765]",
                     "Transform Data": {
                         "Translate": [
-                            -1.260345458984375,
-                            -9.068265914916992,
-                            4.464597702026367
+                            -8.668264389038086,
+                            1.260345458984375,
+                            5.319821834564209
                         ],
                         "Rotate": [
-                            -17.47602081298828,
-                            1.967826008796692,
-                            -6.22443962097168
+                            2.062971353530884,
+                            17.465381622314453,
+                            -96.84384155273438
                         ]
                     }
                 }
@@ -4224,7 +3917,7 @@
         },
         "Entity_[2290242451829]": {
             "Id": "Entity_[2290242451829]",
-            "Name": "Wheel_RL",
+            "Name": "RearLeftWheel",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -4233,10 +3926,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 273185495
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 272988244
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_207f667d_506e_5141_be11_c2812da6f0bb_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_1f6d52fb_33ed_56ae_a163_c8b625c7ffe0_.fbx.azmodel"
                             }
                         }
                     }
@@ -4274,9 +3967,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -4318,7 +4011,7 @@
         },
         "Entity_[2298832386421]": {
             "Id": "Entity_[2298832386421]",
-            "Name": " Lamp interrior",
+            "Name": "InterriorRoof",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
@@ -4405,23 +4098,8 @@
         },
         "Entity_[2303127353717]": {
             "Id": "Entity_[2303127353717]",
-            "Name": "vis",
+            "Name": "Visual",
             "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 13704334316973204572,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{2BE846A2-A9B9-51B8-BCC0-155BA215DBFE}",
-                                    "subId": 280537476
-                                },
-                                "assetHint": "lidar/os1-64.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 11572372342216181960
@@ -4441,29 +4119,6 @@
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
                     "Id": 13883359129773511351
-                },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 9807603908137807838,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 632451802
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B3783B15-1375-5089-A1A4-87F5CFA36327}"
-                                            },
-                                            "assetHint": "lidar/os1-64_os1-64.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -4498,7 +4153,7 @@
         },
         "Entity_[2307422321013]": {
             "Id": "Entity_[2307422321013]",
-            "Name": "Tractor_Body",
+            "Name": "Body",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -4507,10 +4162,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F1B28991-B164-550A-980B-8374344612E0}",
-                                    "subId": 284850634
+                                    "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
+                                    "subId": 275717130
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_41314f3b_36c7_53c0_9fcf_9c0cf170570e_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_b29d79f3_5baf_59a8_a729_9c48dfa6a609_.fbx.azmodel"
                             }
                         }
                     }
@@ -4548,9 +4203,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{116E0855-F5B8-5668-93BE-3F31A5AD7EAD}"
+                                                "guid": "{04471CAD-EFDC-5226-BEC6-029650EA0D75}"
                                             },
-                                            "assetHint": "tractor/materials/generictractor.azmaterial"
+                                            "assetHint": "tractor/models/materials/tractor.azmaterial"
                                         }
                                     }
                                 }
@@ -4582,7 +4237,7 @@
         },
         "Entity_[2311717288309]": {
             "Id": "Entity_[2311717288309]",
-            "Name": " Lamp rear r",
+            "Name": "RearLeftRed",
             "Components": {
                 "AZ::Render::EditorAreaLightComponent": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
