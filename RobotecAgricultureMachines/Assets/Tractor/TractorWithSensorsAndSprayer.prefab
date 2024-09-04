@@ -1,0 +1,75 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TractorWithSensorsAndSprayer",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 18427313093019476005
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10670756623031773747
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1877955663176983545,
+                "Child Entity Order": [
+                    "Instance_[547031810827]/ContainerEntity",
+                    "Instance_[572801614603]/ContainerEntity"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7551388824481317938
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 3445554673477995137
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5460514396366132724
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4748359115739789689
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17681021941515448428
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5801457036950401057
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1441034681132287158,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[547031810827]": {
+            "Source": "Sprayer/Sprayer.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                }
+            ]
+        },
+        "Instance_[572801614603]": {
+            "Source": "Tractor/TractorWithSensors.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                }
+            ]
+        }
+    }
+}
