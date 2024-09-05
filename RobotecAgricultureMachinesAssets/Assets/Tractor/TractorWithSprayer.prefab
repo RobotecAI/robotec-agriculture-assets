@@ -5,64 +5,69 @@
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 2717080669970307766
+                "Id": 3051393716653553942
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 18174588071024313159
+                "Id": 2831011706640534965
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 2783032060362301726,
+                "Id": 7941933958043232034,
                 "Child Entity Order": [
-                    "Instance_[773570572120]/ContainerEntity",
-                    "Instance_[443013799303]/ContainerEntity"
+                    "Instance_[451626437492]/ContainerEntity",
+                    "Instance_[460216372084]/ContainerEntity"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 11788122964387631537
+                "Id": 11610061639959512963
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 8936066317344649962
+                "Id": 5348577745500996773
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 8170915877714537251
+                "Id": 9672841196142029124
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 8770314210872888615
+                "Id": 11793124431359088928
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 17633923230694689083
+                "Id": 10185024067119692070
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 2014354188794766240
+                "Id": 13596289105587231693
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 6683782680967064627,
+                "Id": 16899221482513771483,
                 "Parent Entity": ""
             }
         }
     },
     "Instances": {
-        "Instance_[443013799303]": {
+        "Instance_[451626437492]": {
             "Source": "Tractor/Tractor.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.0000019073486328125
                 }
             ]
         },
-        "Instance_[773570572120]": {
-            "Source": "Sprayer/Sprayer.prefab",
+        "Instance_[460216372084]": {
+            "Source": "TractorSprayer/TractorSprayer.prefab",
             "Patches": [
                 {
                     "op": "replace",

@@ -1,58 +1,58 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "TractorWithSensorsAndSprayer",
+        "Name": "TractorWithSprayer",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 18427313093019476005
+                "Id": 11194379065600195252
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 10670756623031773747
+                "Id": 6967349591146177412
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 1877955663176983545,
+                "Id": 15695836601564362052,
                 "Child Entity Order": [
-                    "Instance_[547031810827]/ContainerEntity",
-                    "Instance_[572801614603]/ContainerEntity"
+                    "Instance_[435658608078]/ContainerEntity",
+                    "Instance_[461428411854]/ContainerEntity"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 7551388824481317938
+                "Id": 5459340148074508712
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 3445554673477995137
+                "Id": 5186581600795676532
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 5460514396366132724
+                "Id": 10773946021898398241
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 4748359115739789689
+                "Id": 10106584622226351494
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 17681021941515448428
+                "Id": 17492784576558161109
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 5801457036950401057
+                "Id": 3140442168902596366
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 1441034681132287158,
+                "Id": 5354332836187000513,
                 "Parent Entity": ""
             }
         }
     },
     "Instances": {
-        "Instance_[547031810827]": {
-            "Source": "Sprayer/Sprayer.prefab",
+        "Instance_[435658608078]": {
+            "Source": "TractorSprayer/TractorSprayer.prefab",
             "Patches": [
                 {
                     "op": "replace",
@@ -61,8 +61,8 @@
                 }
             ]
         },
-        "Instance_[572801614603]": {
-            "Source": "Tractor/TractorWithSensors.prefab",
+        "Instance_[461428411854]": {
+            "Source": "Tractor/Tractor.prefab",
             "Patches": [
                 {
                     "op": "replace",

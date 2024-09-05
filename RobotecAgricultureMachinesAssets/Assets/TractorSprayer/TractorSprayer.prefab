@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "Sprayer",
+        "Name": "TractorSprayer",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -52,7 +52,7 @@
     "Entities": {
         "Entity_[14331279541119]": {
             "Id": "Entity_[14331279541119]",
-            "Name": "Sprayer",
+            "Name": "TractorSprayer",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -61,10 +61,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{36C9DECC-A0D7-5788-8CB7-5D65EC1479E9}",
-                                    "subId": 271616561
+                                    "guid": "{47F20252-6FC0-5454-B9B5-8D7DFDE2ED3E}",
+                                    "subId": 269016990
                                 },
-                                "assetHint": "sprayer/models/default_sprayer_9f6246f2_593e_5a8a_bbc9_1341455fdfa0_.fbx.azmodel"
+                                "assetHint": "tractorsprayer/models/default_tractorsprayer_df00fb51_1ae9_5092_8e75_605b3eb82699_.fbx.azmodel"
                             }
                         }
                     }
@@ -102,8 +102,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{F7F9CA03-E31C-5651-BAAF-42D447BC7901}"
-                                            }
+                                                "guid": "{4E2EE3A8-778F-5EF8-8F43-E0DD0C4D74E0}"
+                                            },
+                                            "assetHint": "tractorsprayer/models/materials/tractorsprayerpipes.azmaterial"
                                         }
                                     }
                                 },
@@ -114,9 +115,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{CB69C699-A23B-541C-BC05-C0434D702055}"
+                                                "guid": "{3266DBD2-8F06-55AD-9B77-A913DAB9670E}"
                                             },
-                                            "assetHint": "sprayer/models/materials/tractorsprayer.azmaterial"
+                                            "assetHint": "tractorsprayer/models/materials/tractorsprayer.azmaterial"
                                         }
                                     }
                                 },
@@ -127,9 +128,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{C7DF4CC9-7F24-5CBE-8443-28379632EC87}"
+                                                "guid": "{9731019E-31BE-53D6-9476-5ADC38F74A17}"
                                             },
-                                            "assetHint": "sprayer/models/materials/tractorsprayercanisters.azmaterial"
+                                            "assetHint": "tractorsprayer/models/materials/tractorsprayercanisters.azmaterial"
                                         }
                                     }
                                 }
@@ -166,7 +167,7 @@
         },
         "Entity_[432690477024]": {
             "Id": "Entity_[432690477024]",
-            "Name": "Sprayer",
+            "Name": "TractorSprayer",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -273,19 +274,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{2888BC03-18F9-501D-A847-0347E01D7C26}",
+                                    "guid": "{0365EF8E-252D-55C2-8EE2-2AFDDB1A5836}",
                                     "subId": 1148775305
                                 },
-                                "assetHint": "sprayer/models/sprayer_collider.fbx.pxmesh"
+                                "assetHint": "tractorsprayer/models/sprayer_collider.fbx.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{2888BC03-18F9-501D-A847-0347E01D7C26}",
+                                        "guid": "{0365EF8E-252D-55C2-8EE2-2AFDDB1A5836}",
                                         "subId": 1148775305
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "sprayer/models/sprayer_collider.fbx.pxmesh"
+                                    "assetHint": "tractorsprayer/models/sprayer_collider.fbx.pxmesh"
                                 }
                             }
                         }
@@ -471,7 +472,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -490,14 +492,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -659,7 +653,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -678,14 +673,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -770,7 +757,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -789,14 +777,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -881,7 +861,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -900,14 +881,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -992,7 +965,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1011,14 +985,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1103,7 +1069,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1122,14 +1089,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1214,7 +1173,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1233,14 +1193,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1325,7 +1277,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1344,14 +1297,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1436,7 +1381,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1455,14 +1401,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1547,7 +1485,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1566,14 +1505,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1658,7 +1589,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1677,14 +1609,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1769,7 +1693,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1788,14 +1713,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1880,7 +1797,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -1899,14 +1817,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1991,7 +1901,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2010,14 +1921,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2102,7 +2005,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2121,14 +2025,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2213,7 +2109,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2232,14 +2129,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2324,7 +2213,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2343,14 +2233,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2435,7 +2317,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2454,14 +2337,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2546,7 +2421,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2565,14 +2441,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2657,7 +2525,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{60F155B9-F5C0-5057-B971-B4B1CB33C573}"
-                                            }
+                                            },
+                                            "assetHint": "mist/spraying.azmaterial"
                                         }
                                     }
                                 }
@@ -2676,14 +2545,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

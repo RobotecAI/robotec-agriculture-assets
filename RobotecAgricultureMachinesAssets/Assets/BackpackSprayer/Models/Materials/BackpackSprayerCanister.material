@@ -1,0 +1,28 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 6,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/BackpackSprayerCanister_BaseColor.png",
+        "general.doubleSided": true,
+        "metallic.textureMap": "Textures/BackpackSprayer_Metallic.png",
+        "normal.textureMap": "Textures/BackpackSprayer_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/BackpackSprayer_Roughness.png",
+        "specularF0.factor": 0.3400000035762787,
+        "specularF0.textureMap": "Textures/BackpackSprayer_Specular.png",
+        "subsurfaceScattering.distanceAttenuation": 0.20000000298023224,
+        "subsurfaceScattering.enableSubsurfaceScattering": true,
+        "subsurfaceScattering.quality": 0.7279999852180481,
+        "subsurfaceScattering.scatterColor": [
+            0.9392080307006836,
+            0.6406042575836182,
+            0.40625619888305664,
+            1.0
+        ],
+        "subsurfaceScattering.subsurfaceScatterFactor": 0.8299999833106995,
+        "subsurfaceScattering.thickness": 0.019999999552965164,
+        "subsurfaceScattering.transmissionMode": "ThinObject",
+        "subsurfaceScattering.transmissionScale": 0.20000000298023224
+    }
+}
