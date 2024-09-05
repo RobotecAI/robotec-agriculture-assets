@@ -51,11 +51,11 @@ ShaderResourceGroup MaterialSrg : SRG_PerMaterial
     bool m_placeHolder;
 
     // O3DE_GENERATED_MATERIAL_SRG_BEGIN
-float node36_float_input_inValue;
+float node33_float_input_inValue;
 
 float node25_float_input_inValue;
 
-float node33_float_input_inValue;
+float node36_float_input_inValue;
 
 float node32_float_input_inValue;
 
@@ -170,9 +170,9 @@ void EvaluateSurface(VsOutput IN, PixelGeometryData geoData)
     const bool placeHolder = MaterialSrg::m_placeHolder;
 
     // O3DE_GENERATED_INSTRUCTIONS_BEGIN: inAlpha, inOpacityFactor
-float node33_float_input_outValue = MaterialSrg::node33_float_input_inValue;
-float node25_float_input_outValue = MaterialSrg::node25_float_input_inValue;
 float node17_time_outTime = SceneSrg::m_time;
+float node25_float_input_outValue = MaterialSrg::node25_float_input_inValue;
+float node33_float_input_outValue = MaterialSrg::node33_float_input_inValue;
 uint node21_uv_inIndex = 0;
 float2 node21_uv_outUV = O3DE_MC_UV(node21_uv_inIndex);
 float node21_uv_outU = node21_uv_outUV.x;

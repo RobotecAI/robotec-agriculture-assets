@@ -21,7 +21,7 @@
                         "displayName": "Base Color",
                         "description": "Base Color",
                         "type": "Image",
-                        "defaultValue": "Textures/SprayerMistTexture.png",
+                        "defaultValue": "Textures/Mist_BaseColor.png",
                         "connection": {
                             "type": "ShaderInput",
                             "name": "node22_sample_texture_2d_inValue"
@@ -162,7 +162,7 @@
                         "displayName": "Normal",
                         "description": "Normal",
                         "type": "Image",
-                        "defaultValue": "Textures/SprayerMistTexture_normal.png",
+                        "defaultValue": "Textures/Mist_Normal.png",
                         "connection": {
                             "type": "ShaderInput",
                             "name": "node28_sample_texture_2d_inValue"

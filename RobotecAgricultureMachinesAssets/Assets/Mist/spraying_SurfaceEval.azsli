@@ -44,11 +44,11 @@ Surface EvaluateSurface_spraying(
     const bool placeHolder = MaterialSrg::m_placeHolder;
 
     // O3DE_GENERATED_INSTRUCTIONS_BEGIN: inNormal, inBaseColor, inMetallic, inRoughness, inSpecularF0Factor, inEmissive, inAlpha, inOpacityFactor, inDiffuseAmbientOcclusion, inSpecularOcclusion, inClearCoatFactor, inClearCoatRoughness, inClearCoatNormal, 
-float node33_float_input_outValue = MaterialSrg::node33_float_input_inValue;
+float node17_time_outTime = SceneSrg::m_time;
+float node36_float_input_outValue = MaterialSrg::node36_float_input_inValue;
 float node25_float_input_outValue = MaterialSrg::node25_float_input_inValue;
 float node32_float_input_outValue = MaterialSrg::node32_float_input_inValue;
-float node36_float_input_outValue = MaterialSrg::node36_float_input_inValue;
-float node17_time_outTime = SceneSrg::m_time;
+float node33_float_input_outValue = MaterialSrg::node33_float_input_inValue;
 uint node21_uv_inIndex = 0;
 float2 node21_uv_outUV = O3DE_MC_UV(node21_uv_inIndex);
 float node21_uv_outU = node21_uv_outUV.x;
@@ -62,17 +62,17 @@ float node23_add_outValue = node23_add_inValue1 + node23_add_inValue2;
 float node20_float2_from_values_inX = node21_uv_outU;
 float node20_float2_from_values_inY = node23_add_outValue;
 float2 node20_float2_from_values_outValue = {(float)node20_float2_from_values_inX, (float)node20_float2_from_values_inY};
+float2 node28_sample_texture_2d_inUV = node20_float2_from_values_outValue;
+float4 node28_sample_texture_2d_outColor = MaterialSrg::node28_sample_texture_2d_inValue.Sample(MaterialSrg::node28_sample_texture_2d_inSampler, (float2)node28_sample_texture_2d_inUV);
 float2 node22_sample_texture_2d_inUV = node20_float2_from_values_outValue;
 float4 node22_sample_texture_2d_outColor = MaterialSrg::node22_sample_texture_2d_inValue.Sample(MaterialSrg::node22_sample_texture_2d_inSampler, (float2)node22_sample_texture_2d_inUV);
 float node22_sample_texture_2d_outA = node22_sample_texture_2d_outColor.a;
-float2 node28_sample_texture_2d_inUV = node20_float2_from_values_outValue;
-float4 node28_sample_texture_2d_outColor = MaterialSrg::node28_sample_texture_2d_inValue.Sample(MaterialSrg::node28_sample_texture_2d_inSampler, (float2)node28_sample_texture_2d_inUV);
-float node35_multiply_inValue1 = node22_sample_texture_2d_outA;
-float node35_multiply_inValue2 = node33_float_input_outValue;
-float node35_multiply_outValue = node35_multiply_inValue1 * node35_multiply_inValue2;
 float node31_multiply_inValue1 = node32_float_input_outValue;
 float node31_multiply_inValue2 = node22_sample_texture_2d_outA;
 float node31_multiply_outValue = node31_multiply_inValue1 * node31_multiply_inValue2;
+float node35_multiply_inValue1 = node22_sample_texture_2d_outA;
+float node35_multiply_inValue2 = node33_float_input_outValue;
+float node35_multiply_outValue = node35_multiply_inValue1 * node35_multiply_inValue2;
 float node37_multiply_inValue1 = node36_float_input_outValue;
 float node37_multiply_inValue2 = node35_multiply_outValue;
 float node37_multiply_outValue = node37_multiply_inValue1 * node37_multiply_inValue2;
