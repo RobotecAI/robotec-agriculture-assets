@@ -7,7 +7,7 @@
     "origin": "RobotecAI",
     "origin_url": "https://robotec.ai",
     "type": "Asset",
-    "summary": "Gem with agriculture machines assets such as tractors and sprayers.",
+    "summary": "Gem with agriculture machines such as tractors and sprayers.",
     "canonical_tags": [
         "Gem"
     ],
@@ -20,7 +20,11 @@
     "icon_path": "preview.png",
     "requirements": "",
     "documentation_url": "",
-    "dependencies": [],
+    "dependencies": [
+        "RobotecAgricultureMachinesAssets==1.0.0",
+        "RobotecAgricultureScriptsAssets==1.0.0",
+        "ROS2==2.0.0"
+    ],
     "repo_uri": "",
     "compatible_engines": [],
     "engine_api_dependencies": [],

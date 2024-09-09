@@ -2,13 +2,13 @@
     "Amazon": {
         "AssetProcessor": {
             "Settings": {
-                "ScanFolder RobotecAgricultureDecorationsAssets/Assets": {
-                    "watch": "@GEMROOT:RobotecAgricultureDecorationsAssets@/Assets",
+                "ScanFolder RobotecAgricultureVegetationAssets/Assets": {
+                    "watch": "@GEMROOT:RobotecAgricultureVegetationAssets@/Assets",
                     "recursive": 1,
                     "order": 101
                 },
-                "ScanFolder RobotecAgricultureDecorationsAssets/Registry": {
-                    "watch": "@GEMROOT:RobotecAgricultureDecorationsAssets@/Registry",
+                "ScanFolder RobotecAgricultureVegetationAssets/Registry": {
+                    "watch": "@GEMROOT:RobotecAgricultureVegetationAssets@/Registry",
                     "recursive": 1,
                     "order": 102
                 }
