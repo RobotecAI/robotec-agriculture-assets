@@ -24,6 +24,7 @@
         "roughness.lowerBound": 0.30000001192092896,
         "roughness.textureMap": "Textures/Leaf_Roughness.png",
         "specularF0.factor": 0.0,
+        "subsurfaceScattering.enableSubsurfaceScattering": true,
         "subsurfaceScattering.scatterColor": [
             1.0,
             1.0,
