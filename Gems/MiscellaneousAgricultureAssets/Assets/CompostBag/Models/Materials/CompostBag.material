@@ -2,12 +2,12 @@
     "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
     "materialTypeVersion": 1,
     "propertyValues": {
-        "baseColor.textureMap": "textures/CompostBag_diff.jpg",
+        "baseColor.textureMap": "Textures/CompostBag_diff.jpg",
         "normal.flipY": true,
-        "normal.textureMap": "textures/CompostBag_normal.jpg",
+        "normal.textureMap": "Textures/CompostBag_normal.jpg",
         "normal.useTexture": false,
         "roughness.lowerBound": 0.47999998927116394,
-        "roughness.textureMap": "textures/CompostBag_roughness.jpg",
+        "roughness.textureMap": "Textures/CompostBag_roughness.jpg",
         "specularF0.factor": 0.15000000596046448
     }
 }

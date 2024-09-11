@@ -1,0 +1,9 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/Football_diff.jpg",
+        "normal.textureMap": "Textures/Football_normal.jpg",
+        "roughness.textureMap": "Textures/Football_roughness.jpg"
+    }
+}

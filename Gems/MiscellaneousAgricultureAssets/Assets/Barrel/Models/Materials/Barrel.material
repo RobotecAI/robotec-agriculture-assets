@@ -2,15 +2,15 @@
     "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
     "materialTypeVersion": 1,
     "propertyValues": {
-        "baseColor.textureMap": "textures/Barrel_diff.jpg",
+        "baseColor.textureMap": "Textures/Barrel_diff.jpg",
         "metallic.factor": 0.4300000071525574,
-        "metallic.textureMap": "textures/Barrel_metallic.jpg",
+        "metallic.textureMap": "Textures/Barrel_metallic.jpg",
         "normal.flipY": true,
-        "normal.textureMap": "textures/Barrel_normal.jpg",
+        "normal.textureMap": "Textures/Barrel_normal.jpg",
         "normal.textureMapUv": "Unwrapped",
         "normal.useTexture": false,
         "roughness.lowerBound": 0.28999999165534973,
-        "roughness.textureMap": "textures/Barrel_roughness.jpg",
+        "roughness.textureMap": "Textures/Barrel_roughness.jpg",
         "specularF0.factor": 0.03999999910593033
     }
 }

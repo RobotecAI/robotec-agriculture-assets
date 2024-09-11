@@ -1,0 +1,10 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/RustedSpade_diff.jpg",
+        "metallic.textureMap": "Textures/RustedSpade_metallic.jpg",
+        "normal.textureMap": "Textures/RustedSpade_normal.jpg",
+        "roughness.textureMap": "Textures/RustedSpade_roughness.jpg"
+    }
+}
