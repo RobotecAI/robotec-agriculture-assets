@@ -1,161 +1,161 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "PlanterBox",
+        "Name": "RustedSpade_Visual",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 7671300998974648199
+                "Id": 11747912767811250174
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 1092578896240760821
+                "Id": 6218095793571914505
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 5209226536786555714,
+                "Id": 14485077520251179158,
                 "Child Entity Order": [
-                    "Entity_[2213060684175]"
+                    "Entity_[2354794604943]"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 6146924284600429139
+                "Id": 14924251731575558502
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 5438434914355082192
+                "Id": 17737360671484631017
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 11146388798257972084
+                "Id": 7044226158952652910
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 14418689024562580658
+                "Id": 9161309911771701917
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 6940778833957840582
+                "Id": 16604270228805303294
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 319988140092500677
+                "Id": 6197980913922108346
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 12178441236682896105,
+                "Id": 4555762800254338221,
                 "Parent Entity": ""
             }
         }
     },
     "Entities": {
-        "Entity_[2213060684175]": {
-            "Id": "Entity_[2213060684175]",
-            "Name": "PlanterBox",
+        "Entity_[2354794604943]": {
+            "Id": "Entity_[2354794604943]",
+            "Name": "RustedSpade_Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 12144799962494934459
+                    "Id": 4811298444625436091
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 3313216682154268050
+                    "Id": 4885351928551100165
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16126070278766771082,
+                    "Id": 2381997434342546250,
                     "Child Entity Order": [
-                        "Entity_[2217355651471]"
+                        "Entity_[2359089572239]"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 10587719847483520862,
+                    "Id": 1699826529107879712,
                     "ComponentOrderEntryArray": [
                         {
-                            "ComponentId": 926862877771534828
+                            "ComponentId": 2144162904037034945
                         }
                     ]
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 7870385468089312209
+                    "Id": 16867793881250525310
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 1800362740139393182
+                    "Id": 11396979640559164805
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 12376804419841226675
+                    "Id": 13721176390754334415
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 680677578985516075
+                    "Id": 10301309516749474217
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 926862877771534828,
+                    "Id": 2144162904037034945,
                     "Parent Entity": "ContainerEntity"
                 }
             }
         },
-        "Entity_[2217355651471]": {
-            "Id": "Entity_[2217355651471]",
-            "Name": "PlanterBox",
+        "Entity_[2359089572239]": {
+            "Id": "Entity_[2359089572239]",
+            "Name": "RustedSpade_Visual",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 9174464451007460451,
+                    "Id": 2959257951145407964,
                     "Controller": {
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{33C5FB68-C698-58C6-AC18-B39D1C0D08A5}",
-                                    "subId": 276889086
+                                    "guid": "{0E031330-1223-582C-82E4-9816CF0AE184}",
+                                    "subId": 273189935
                                 },
-                                "assetHint": "planterbox/models/default_planterbox_c0c54df5_03f0_5643_a50f_54d756a72fb2_.fbx.azmodel"
+                                "assetHint": "rustedspade/models/default_rustedspade_e1728dcc_08cc_5011_92b9_763b1e3ee609_.fbx.azmodel"
                             }
                         }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15435284079618243915
+                    "Id": 9879025198016573423
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 2742059883257752073
+                    "Id": 1668376666850266178
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 15589591300092494227
+                    "Id": 7297539342011841742
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 12325068790330304694
+                    "Id": 8462189501410006387
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 3557850508046928046
+                    "Id": 2149220647869088348
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 7015562504182677442,
+                    "Id": 15306536887951154104,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 1433808503
+                                        "materialSlotStableId": 783710215
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{B333772A-75A9-50D9-B68D-C12E3F97CD72}"
+                                                "guid": "{AED5A48E-CF58-5491-88F2-774358E164B7}"
                                             },
-                                            "assetHint": "planterbox/models/materials/planterbox.azmaterial"
+                                            "assetHint": "rustedspade/models/materials/rustedspade.azmaterial"
                                         }
                                     }
                                 }
@@ -165,20 +165,20 @@
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 14904657736114512919
+                    "Id": 1324937850005712079
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 7704578384760801741
+                    "Id": 16612607565414124839
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 4772449708534113717
+                    "Id": 4924626112380075991
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12763526679803239361,
-                    "Parent Entity": "Entity_[2213060684175]"
+                    "Id": 4785244167733689068,
+                    "Parent Entity": "Entity_[2354794604943]"
                 }
             }
         }

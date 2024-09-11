@@ -1,161 +1,161 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "CardboardBox",
+        "Name": "Barrel_Visual",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 651592599072678333
+                "Id": 10718811909125797960
             },
             "EditorEntityIconComponent": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 453472700206861491
+                "Id": 8519443110792900964
             },
             "EditorEntitySortComponent": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 17019837225254395365,
+                "Id": 15693788006143831473,
                 "Child Entity Order": [
-                    "Entity_[1001879906703]"
+                    "Entity_[692642261391]"
                 ]
             },
             "EditorInspectorComponent": {
                 "$type": "EditorInspectorComponent",
-                "Id": 3223614222184084987
+                "Id": 13275695159959828856
             },
             "EditorLockComponent": {
                 "$type": "EditorLockComponent",
-                "Id": 17579311568804074308
+                "Id": 15928699412039582813
             },
             "EditorOnlyEntityComponent": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 18261616716704462916
+                "Id": 16165785990401398428
             },
             "EditorPendingCompositionComponent": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 1455423980271589908
+                "Id": 4897795302770253706
             },
             "EditorPrefabComponent": {
                 "$type": "EditorPrefabComponent",
-                "Id": 1197249389151814819
+                "Id": 11152587032262059390
             },
             "EditorVisibilityComponent": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 8923123509893635114
+                "Id": 2458442497586873075
             },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 14295905064356487772,
+                "Id": 1427213228749963063,
                 "Parent Entity": ""
             }
         }
     },
     "Entities": {
-        "Entity_[1001879906703]": {
-            "Id": "Entity_[1001879906703]",
-            "Name": "CardboardBox",
+        "Entity_[692642261391]": {
+            "Id": "Entity_[692642261391]",
+            "Name": "Barrel_Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 7883039287822126467
+                    "Id": 937993036097496743
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 11767353522771158594
+                    "Id": 18446612723345161902
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 14993408793547131786,
+                    "Id": 13619650611340193282,
                     "Child Entity Order": [
-                        "Entity_[1006174873999]"
+                        "Entity_[696937228687]"
                     ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 11896786011526472045,
+                    "Id": 4707084777972135252,
                     "ComponentOrderEntryArray": [
                         {
-                            "ComponentId": 9326966870850008940
+                            "ComponentId": 11773611362804571073
                         }
                     ]
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 10724722257440150220
+                    "Id": 9978858676171763531
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 15936927707641420850
+                    "Id": 9569904173843351571
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 5527468497204935827
+                    "Id": 3008154646956823134
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 9833101404079405625
+                    "Id": 17027707515600295159
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 9326966870850008940,
+                    "Id": 11773611362804571073,
                     "Parent Entity": "ContainerEntity"
                 }
             }
         },
-        "Entity_[1006174873999]": {
-            "Id": "Entity_[1006174873999]",
-            "Name": "CardboardBox",
+        "Entity_[696937228687]": {
+            "Id": "Entity_[696937228687]",
+            "Name": "Barrel_Visual",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 5913207286039901521,
+                    "Id": 5572466421876495645,
                     "Controller": {
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1FDEF1B4-7E1E-5D2F-B512-B3830A61E49D}",
-                                    "subId": 275419870
+                                    "guid": "{D67EE211-A47A-5D75-8A40-79DFA40332B2}",
+                                    "subId": 281466912
                                 },
-                                "assetHint": "cardboardbox/models/default_cardboardbox_74b8aaa1_145b_5267_b9a9_474c9839a5d0_.fbx.azmodel"
+                                "assetHint": "barrel/models/default_barrel_576cf737_a39f_5ef6_b30a_b3a95384184e_.fbx.azmodel"
                             }
                         }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 768657346338203958
+                    "Id": 12521477275756386292
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 11497287709113380252
+                    "Id": 1942947860507396182
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 10416162058987014635
+                    "Id": 2771539036947769145
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 8516801397455235336
+                    "Id": 4135077828695337402
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
-                    "Id": 9316217759962793297
+                    "Id": 14153277568564006918
                 },
                 "EditorMaterialComponent": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 12915516873134341344,
+                    "Id": 644305134562117420,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 2017172587
+                                        "materialSlotStableId": 1217848576
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{15025F08-66A0-5A1E-8BC4-D90872F13A47}"
+                                                "guid": "{6279B5E5-F075-5D35-A8CD-B68FF17ED20C}"
                                             },
-                                            "assetHint": "cardboardbox/models/materials/cardboardbox.azmaterial"
+                                            "assetHint": "barrel/models/materials/barrel.azmaterial"
                                         }
                                     }
                                 }
@@ -165,20 +165,20 @@
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 1921389511758674050
+                    "Id": 2672455456727171303
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 13392386865441022254
+                    "Id": 11285541578566823628
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 10185653078961241396
+                    "Id": 2494632470750193021
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12532031758203203259,
-                    "Parent Entity": "Entity_[1001879906703]"
+                    "Id": 460385295767454148,
+                    "Parent Entity": "Entity_[692642261391]"
                 }
             }
         }

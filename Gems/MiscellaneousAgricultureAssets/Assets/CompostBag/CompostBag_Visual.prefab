@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "CompostBag",
+        "Name": "CompostBag_Visual",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -52,7 +52,7 @@
     "Entities": {
         "Entity_[1306822584719]": {
             "Id": "Entity_[1306822584719]",
-            "Name": "CompostBag",
+            "Name": "CompostBag_Visual",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -103,7 +103,7 @@
         },
         "Entity_[1311117552015]": {
             "Id": "Entity_[1311117552015]",
-            "Name": "CompostBag",
+            "Name": "CompostBag_Visual",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
