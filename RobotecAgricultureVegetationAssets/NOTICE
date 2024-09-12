@@ -1,9 +1,3 @@
-The assets in this repository are based on the assets from robotec-agriculture-gem.
-The base assets were licensed under Apache 2.0 license and the same license remains for this work.Exceptions:
+The "MapleTree" models and textures were obtained from Sketchfab (https://sketchfab.com/3d-models/maple-tree-b5e945e7abcc471da6547c04e314774c) and they have CC Attribution license. Prefab, material and assetinfo files were created by Robotec.ai and are licensed under the CC BY-NC 4.0 license.
 
-1. [MapleTree is under a CC Attribution](https://sketchfab.com/3d-models/maple-tree-b5e945e7abcc471da6547c04e314774c)
-
-Most of the base files, i.e., textures and models are copied without any changes. Otherwise, the changes include (but are not limited to):
-- filename changes and corresponding prefabs/materials modifications
-- folder structure changes and corresponding prefabs/materials modifications
-- rotation/position modifications within prefabs
+The remaining model, texture, prefab, material  and assetinfo files were created by Robotec.ai and are licensed under the CC BY-NC 4.0 license.

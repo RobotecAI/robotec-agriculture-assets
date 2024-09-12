@@ -2,12 +2,12 @@
     "gem_name": "RobotecAgricultureVegetationAssets",
     "version": "1.0.0",
     "display_name": "RobotecAgricultureVegetationAssets",
-    "license": "Apache-2.0",
-    "license_url": "https://opensource.org/licenses/Apache-2.0",
+    "license": "CC BY-NC 4.0 Robotec.ai with some files under CC0 Attribution license",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
     "origin": "RobotecAI",
     "origin_url": "https://robotec.ai",
     "type": "Asset",
-    "summary": "Gem with vegetation assets used for decorating an agriculture scene, like grass and trees.",
+    "summary": "Gem with vegetation assets used for decorating agriculture scenes (grass and trees, etc.).",
     "canonical_tags": [
         "Gem"
     ],
