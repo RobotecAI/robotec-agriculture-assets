@@ -1,0 +1,213 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "CardboardBox",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4617435750946448819
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7884108940706199326
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4398157214751980348,
+                "Child Entity Order": [
+                    "Entity_[1161199987424]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17194332454648917217
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 11917888497160722772
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17394799486619052302
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3229395108917928649
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16076168612497677086
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11777608477358645381
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7608398645357387980,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1161199987424]": {
+            "Id": "Entity_[1161199987424]",
+            "Name": "CardboardBox",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6825554855013047867
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8782494937279700069
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10349470470853148726,
+                    "Child Entity Order": [
+                        "Instance_[557063482358]/ContainerEntity",
+                        "Entity_[1165494954720]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6086721412467211880,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6878752626500650904
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6726853063541122411
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17780752291861880614
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1313899035985204388
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13878501760273721506
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6878752626500650904,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[1165494954720]": {
+            "Id": "Entity_[1165494954720]",
+            "Name": "collider",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 93077789959255521,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.009999999776482582,
+                            0.20999999344348907
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.5,
+                                0.6299999952316284,
+                                0.41999998688697815
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10022416385157764020
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11041082888647741796
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13410152195541657910
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1749326509405513452
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7165106668184444077
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10173600614077219179
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12969313063653749031
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 14214714983290904244,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 131.25,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.009999999776482582,
+                            0.20999999344348907
+                        ],
+                        "Inertia tensor": [
+                            6.201835632324219,
+                            0.0,
+                            0.0,
+                            0.0,
+                            4.663750171661377,
+                            0.0,
+                            0.0,
+                            0.0,
+                            7.006836414337158
+                        ]
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13256679320599154126
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1853247108231986158,
+                    "Parent Entity": "Entity_[1161199987424]"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[557063482358]": {
+            "Source": "CardboardBox/CardboardBox_Visual.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1161199987424]"
+                }
+            ]
+        }
+    }
+}
