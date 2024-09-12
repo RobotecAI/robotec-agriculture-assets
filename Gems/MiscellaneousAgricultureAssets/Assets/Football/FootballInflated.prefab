@@ -1,0 +1,209 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "FootballInflated",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3565391439403639425
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6621795390466466579
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 486680998129137653,
+                "Child Entity Order": [
+                    "Entity_[2806172461792]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11588833049853889531
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 12741122378357710101
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10672815424001485716
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5976982950530589269
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4290416888945186359
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5749257217058650179
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 587318666795434337,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2806172461792]": {
+            "Id": "Entity_[2806172461792]",
+            "Name": "FootballInflated",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12212560185023044212
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2124043516328793202
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12976415175579492227,
+                    "Child Entity Order": [
+                        "Instance_[608603089910]/ContainerEntity",
+                        "Entity_[2810467429088]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15737901752363200202,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5800542258683670025
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6462106348027712564
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14524895526070367405
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12774918478469064507
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 578315753081728215
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5800542258683670025,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[2810467429088]": {
+            "Id": "Entity_[2810467429088]",
+            "Name": "collider",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16488488326136174324,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.1120000034570694
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 0.1120000034570694
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4087234759486566727
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10646003160083332332
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4275543307354753119
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1365170630346754731
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5482128448428890737
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14533410391771065476
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3769785802765445333
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 9980865583380840447,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 5.884949207305908,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.0,
+                            0.1120000034570694
+                        ],
+                        "Inertia tensor": [
+                            0.029528312385082245,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.029528312385082245,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.02952832169830799
+                        ]
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14751109736659744980
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13473228587040655741,
+                    "Parent Entity": "Entity_[2806172461792]"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[608603089910]": {
+            "Source": "Football/FootballInflated_Visual.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[2806172461792]"
+                }
+            ]
+        }
+    }
+}

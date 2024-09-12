@@ -15,7 +15,7 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 1165286088045834229,
                 "Child Entity Order": [
-                    "Entity_[1908118006159]"
+                    "Entity_[1912412973455]"
                 ]
             },
             "EditorInspectorComponent": {
@@ -50,57 +50,6 @@
         }
     },
     "Entities": {
-        "Entity_[1908118006159]": {
-            "Id": "Entity_[1908118006159]",
-            "Name": "FootballDeflated_Visual",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5353598599559333824
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 10647421960796720799
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 16621826399312230313,
-                    "Child Entity Order": [
-                        "Entity_[1912412973455]"
-                    ]
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 9636676666362589229,
-                    "ComponentOrderEntryArray": [
-                        {
-                            "ComponentId": 3947578778641356188
-                        }
-                    ]
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 5473538940025344997
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 7913851956501388520
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 11311177452774708581
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 15483736288653255873
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 3947578778641356188,
-                    "Parent Entity": "ContainerEntity"
-                }
-            }
-        },
         "Entity_[1912412973455]": {
             "Id": "Entity_[1912412973455]",
             "Name": "FootballDeflated_Visual",
@@ -178,7 +127,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 5051129769796257041,
-                    "Parent Entity": "Entity_[1908118006159]"
+                    "Parent Entity": "ContainerEntity"
                 }
             }
         }

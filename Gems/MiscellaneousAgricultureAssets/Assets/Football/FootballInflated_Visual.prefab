@@ -15,7 +15,7 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 18433195860814718891,
                 "Child Entity Order": [
-                    "Entity_[1616060230031]"
+                    "Entity_[1620355197327]"
                 ]
             },
             "EditorInspectorComponent": {
@@ -50,57 +50,6 @@
         }
     },
     "Entities": {
-        "Entity_[1616060230031]": {
-            "Id": "Entity_[1616060230031]",
-            "Name": "FootballInflated_Visual",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 2266917672832983921
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 10814950384847212064
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 6725054663932522210,
-                    "Child Entity Order": [
-                        "Entity_[1620355197327]"
-                    ]
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 15732338203128161931,
-                    "ComponentOrderEntryArray": [
-                        {
-                            "ComponentId": 3173644796560107169
-                        }
-                    ]
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 13057206830231011481
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 17210675267816090072
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 17655427940241750920
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 8095185440335080234
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 3173644796560107169,
-                    "Parent Entity": "ContainerEntity"
-                }
-            }
-        },
         "Entity_[1620355197327]": {
             "Id": "Entity_[1620355197327]",
             "Name": "FootballInflated_Visual",
@@ -178,7 +127,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 2411471126601401957,
-                    "Parent Entity": "Entity_[1616060230031]",
+                    "Parent Entity": "ContainerEntity",
                     "Transform Data": {
                         "Translate": [
                             0.0,
