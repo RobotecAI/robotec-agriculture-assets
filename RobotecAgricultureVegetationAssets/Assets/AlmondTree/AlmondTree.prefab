@@ -1,0 +1,432 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "AlmondTree",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5364002993937999727
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11376972752656975377
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11821052434650847201,
+                "Child Entity Order": [
+                    "Entity_[202181260794086]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15005948160223310014
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 2599599533423914784
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14176134865702717509
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4366860414056660120
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 18178303352942013631
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5410579457702996720
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16000186321778259747,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[202108246350054]": {
+            "Id": "Entity_[202108246350054]",
+            "Name": "Visual",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5713596407429198125,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{9188CEA4-7F3E-5CF8-8900-2D546B6EB618}",
+                                    "subId": 283034249
+                                },
+                                "assetHint": "almondtree/models/almondtree.fbx.azmodel"
+                            },
+                            "LodType": 1,
+                            "MinimumScreenCoverage": 0.029999999329447746,
+                            "QualityDecayRate": 0.20000000298023224
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18224689033387723433
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15456047715785776004
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3247070342404091398
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14821931673557170559,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1709619871596766409
+                        },
+                        {
+                            "ComponentId": 5713596407429198125,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9572880356075576654,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 307279360744985105
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9572880356075576654,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2269494054
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D1CBE960-10C7-52FC-AE29-946686FE4743}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreebark.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2304549586
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C1B6FF7-0C31-55C6-9E7D-85BAEDBD7F3F}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreeleaf_lod0.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3422175389
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E9D75A8A-C066-5137-94D2-8EAEE69170E1}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreestump.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 0,
+                                        "materialSlotStableId": 2269494054
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D1CBE960-10C7-52FC-AE29-946686FE4743}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreebark.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 0,
+                                        "materialSlotStableId": 2304549586
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C1B6FF7-0C31-55C6-9E7D-85BAEDBD7F3F}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreeleaf_lod0.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 0,
+                                        "materialSlotStableId": 3422175389
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E9D75A8A-C066-5137-94D2-8EAEE69170E1}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreestump.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 1,
+                                        "materialSlotStableId": 2269494054
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D1CBE960-10C7-52FC-AE29-946686FE4743}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreebark.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 1,
+                                        "materialSlotStableId": 2304549586
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8BCD79A8-CC87-5E0E-8765-C97F79B838F8}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreeleaf_lod1.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 1,
+                                        "materialSlotStableId": 3422175389
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E9D75A8A-C066-5137-94D2-8EAEE69170E1}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreestump.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 2,
+                                        "materialSlotStableId": 2269494054
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D1CBE960-10C7-52FC-AE29-946686FE4743}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreebark.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 2,
+                                        "materialSlotStableId": 2304549586
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C992D21-3396-5A10-916F-9A03D0E64C2D}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreeleaf_lod2.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 2,
+                                        "materialSlotStableId": 3422175389
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E9D75A8A-C066-5137-94D2-8EAEE69170E1}"
+                                            },
+                                            "assetHint": "almondtree/models/materials/almondtreestump.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlotsByLodEnabled": true
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10383941989359785714
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15113070640228719748
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11267292289502868921
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1709619871596766409,
+                    "Parent Entity": "Entity_[454404146500]"
+                }
+            }
+        },
+        "Entity_[202181260794086]": {
+            "Id": "Entity_[202181260794086]",
+            "Name": "AlmondTree",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9540353318906454676
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 596353326503034830
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13470843353150231876,
+                    "Child Entity Order": [
+                        "Entity_[454404146500]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17975737651683588163
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15705793160282472922
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7318513721591437127
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6659006498920252187
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14923232626157201067
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3849774970638872916,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[454404146500]": {
+            "Id": "Entity_[454404146500]",
+            "Name": "Main",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1406838810103514452,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.75
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 3,
+                        "Capsule": {
+                            "Height": 3.215803623199463
+                        },
+                        "Cylinder": {
+                            "Configuration": {
+                                "CookedData": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A2+6h5rvQAAwD9s6A2+6h5rvQAAAAAjOdm9JTnZvQAAAAAjOdm9JTnZvQAAwD+amRm+a0lhsgAAwD+amRm+a0lhsgAAAADpHmu9bOgNPgAAwD/pHmu9bOgNPgAAAAAlOdm9IznZPQAAAAAlOdm9IznZPQAAwD/iHmu9begNvgAAwD/iHmu9begNvgAAAAAR96gympkZvgAAAAAR96gympkZvgAAwD9t6A2+5B5rPQAAwD9t6A2+5B5rPQAAAAAkOdk9JDnZPQAAAADlHms9begNPgAAAADlHms9begNPgAAwD8kOdk9JDnZPQAAwD9s6A0+6B5rPQAAwD+amRk+AAAAAAAAwD+amRk+AAAAAAAAAABs6A0+6B5rPQAAAABrSeGxmpkZPgAAwD/tHms9bOgNvgAAwD8nOdk9IjnZvQAAwD9t6A0+4R5rvQAAwD/tHms9bOgNvgAAAAAnOdk9IjnZvQAAAABrSeGxmpkZPgAAAABt6A0+4R5rvQAAAAAAAAAAAAAAAAAAgD8AAMC/AAAQATDbVL/cOQ6/AAAAAAymFr4QAAQQvxR7v8jFR74AAAAADaYWvhQABBTcOQ6/MNtUPwAAAAAMpha+GAAEGdo5Dr8x21S/AAAAAAymFr4cAAQRtsVHvr8Ue78AAAAADaYWviAABBEy21S/3DkOPwAAAAAOpha+JAAEGr8Ue7+1xUc+AAAAAA2mFr4oAAQV3TkOPzHbVD8AAAAADaYWviwABAK/FHs/xsVHPgAAAAAMpha+MAAEADHbVD/bOQ4/AAAAAAymFr40AAQA3TkOPy/bVL8AAAAADKYWvjgABAbGxUc+vxR7vwAAAAANpha+PAAEBsfFR76/FHs/AAAAAAymFr5AAAQMtsVHPr8Uez8AAAAADKYWvkQABAy/FHs/usVHvgAAAAAMpha+SAAEBDPbVD/YOQ6/AAAAAA2mFr5MAAQOAAAAAAAAAAAAAIC/AAAAgFAAEAAUExIYBgkOBAADCg0ZGhsVAAECAwAEBQEGBwgJCgMCCwoLDA0OCQgPDg8FBBAREhMUFRYXFBcQExwdGhkcGQ0MHgcGGB4YEhEfFhUbHxsaHR8dHAwLAgEFDwgHHhEQFxYACgAIAA4ADQADAAYABwACAAEABAAFAAwACwAQAA8ACQECAREBBAIHAhEDDQMRAwYEEQQFBREFDAYRBgcHEQgRCA4ICgkPCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIBAhEBBBEAAQQAAgcCBxEAAw0DDREDBhEAAwYABAUEBREFDBEABQwABgcGBxEIChEIDhEACA4ACAoACQoACQ8JDxEJChEADQ4ACwwACxAADxALDBELEBENDhEPEBEAAAAAmpkZvpqZGb4AAAAAmpkZPpqZGT4AAMA/0JvTPdjdnz3oSAEt7MVuL+hIAS3Y3Z89FdSqLuzFbi8V1KouDX6UOppOU7HQxomwAABAPwAAgL8AAIC/DKYWPiM52T0jOdk9AABAPw==",
+                                "Type": 1
+                            },
+                            "Height": 1.5,
+                            "Radius": 0.15000000596046448
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7074106369133089035
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7276262483210051396
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3090990602643617858,
+                    "Child Entity Order": [
+                        "Entity_[202108246350054]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7851615489655857903
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16422872623479586534
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16884134659309314609
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13607365732476827766
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11979452317749532525
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1171282996962150919
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12924028248857676914,
+                    "Parent Entity": "Entity_[202181260794086]"
+                }
+            }
+        }
+    }
+}
