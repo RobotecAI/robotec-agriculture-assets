@@ -2,17 +2,19 @@
     "gem_name": "RobotecAgricultureMachines",
     "version": "1.0.0",
     "display_name": "RobotecAgricultureMachines",
-    "license": "Apache-2.0",
-    "license_url": "https://opensource.org/licenses/Apache-2.0",
+    "license": "CC BY-NC 4.0 Robotec.ai",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
     "origin": "RobotecAI",
     "origin_url": "https://robotec.ai",
     "type": "Asset",
-    "summary": "Gem with agriculture machines such as tractors and sprayers.",
+    "summary": "Gem with assets of agriculture machines such as tractors and sprayers.",
     "canonical_tags": [
         "Gem"
     ],
     "user_tags": [
-        "RobotecAgricultureMachines"
+        "RobotecAgricultureMachines",
+        "Tractor",
+        "Sprayer"
     ],
     "platforms": [
         ""
@@ -21,8 +23,6 @@
     "requirements": "",
     "documentation_url": "",
     "dependencies": [
-        "RobotecAgricultureMachinesAssets==1.0.0",
-        "RobotecAgricultureScriptsAssets==1.0.0",
         "ROS2==2.0.0"
     ],
     "repo_uri": "",

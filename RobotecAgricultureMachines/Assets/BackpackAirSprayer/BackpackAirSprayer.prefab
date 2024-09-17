@@ -1,0 +1,347 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "BackpackAirSprayer",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2136053847708665533
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16598399595674312653
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 365415460031882115,
+                "Child Entity Order": [
+                    "Entity_[510904395589]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4772645669013810057
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 2763083541952270744
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12637395404341592108
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10423152098053900120
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15314579522504969144
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7436275021667215372
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16402897784335363307,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[510904395589]": {
+            "Id": "Entity_[510904395589]",
+            "Name": "BackpackSprayer",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7217597440630128965
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13746327994399188467
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17986031913870217675,
+                    "Child Entity Order": [
+                        "Entity_[672261644089]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17756061917626016155,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2903838500640523881
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13439020584928261011
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10672833650927699502
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4981356534928648119
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3532436238230064214
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2903838500640523881,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[515199362885]": {
+            "Id": "Entity_[515199362885]",
+            "Name": "Visual",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14105251595015379698,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{655F4CBF-3725-5B7A-9288-A28CA33A6147}",
+                                    "subId": 271369070
+                                },
+                                "assetHint": "backpackairsprayer/models/backpackairsprayer.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11000849598435139994
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4477808873744135329
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9518814090134969030
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14121258193439108677
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 528879378426202410
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13233929872174082157,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2480579720
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D9A142D2-6BE6-5362-9887-448B8C4B0A89}"
+                                            },
+                                            "assetHint": "backpackairsprayer/models/materials/backpacksprayercanister.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3503553447
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B1DA534F-339B-5398-AA22-A1C1E4B2117F}"
+                                            },
+                                            "assetHint": "backpackairsprayer/models/materials/backpacksprayer.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14144590560322554471
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16360005808780068028
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17722394054796618769
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15080341970136200192,
+                    "Parent Entity": "Entity_[672261644089]"
+                }
+            }
+        },
+        "Entity_[672261644089]": {
+            "Id": "Entity_[672261644089]",
+            "Name": "Main",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 694694933905219071,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.010252952575683594,
+                            -1.0494035482406616,
+                            0.49245357513427734
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.7097628116607666,
+                                0.8201072216033936,
+                                1.2727365493774414
+                            ]
+                        }
+                    }
+                },
+                "EditorColliderComponent_2": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 10385889818534520598,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            -1.804494023323059,
+                            0.3763991892337799
+                        ],
+                        "Rotation": [
+                            0.7071067690849304,
+                            0.0,
+                            0.0,
+                            0.7071067094802856
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 3,
+                        "Cylinder": {
+                            "Configuration": {
+                                "CookedData": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAAA5Tdg+FHrKvyM+Tj6JH+o+FHrKv2W3wD6JH+o+n7wBwGW3wD45Tdg+n7wBwCE+Tj7UjKU+n7wBwKBUWT3UjKU+FHrKv6BUWT02Tdg+n7wBwN4nDT82Tdg+FHrKv94nDT/SjKU+FHrKvxwiMz/SjKU+n7wBwBwiMz82Tdi+FHrKvxw+Tj7SjKW+FHrKv4hUWT3SjKW+n7wBwIhUWT02Tdi+n7wBwBo+Tj6JH+q+n7wBwGO3wD6JH+q+FHrKv2S3wD44Tdi+FHrKv94nDT/UjKW+FHrKvxwiMz+tMDO+FHrKv06CTD8MsquyFHrKv3drVT+rMDM+FHrKv06CTD+wMDM+FHrKv4iuPL2KxYAzFHrKv5Cgpb2pMDO+FHrKv5iuPL2wMDM+n7wBwIiuPL2KxYAzn7wBwJCgpb04Tdi+n7wBwN0nDT/UjKW+n7wBwBwiMz+tMDO+n7wBwE6CTD8Msquyn7wBwHdrVT+pMDO+n7wBwJiuPL2rMDM+n7wBwE6CTD8AAAAAAACAPwAAAAASeso/AAAQAr8Uez8AAAAAr8VHvgwHwL4QAAQOMNtUP5WzHzPbOQ6/NB11vhQABBC+FHs/AAAAAMjFRz5hnAW/GAAEDjLbVD8AAAAA2zkOP5ZYKL8cAAQLM9tUvwAAAADaOQ6/PR11viAABAa+FHu/p1FgMsrFR74GB8C+JAAEAcrFRz4AAAAAvhR7v9pxor0oAAQS3DkOPwAAAAAv21S/B8YKviwABBEz21S/AAAAANo5Dj+XWCi/MAAEA8AUe7+MUeCyssVHPmCcBb80AAQAwcVHvgAAAADAFHs/qlFRvzgABBbYOQ6/AAAAADPbVD9k7kK/PAAEFdg5Dr8AAAAAM9tUvwTGCr5AAAQUtMVHvgAAAAC/FHu/2HGivUQABBPaOQ4/AAAAADPbVD9l7kK/SAAEC8HFRz4AAAAAwBR7P6tRUb9MAAQXAAAAAP//f78AAAAAnrwBwFAAEAAKDxAREhMUCAcBAAUVFhcLAAECAwADBAUGAgEHBgcICQoLDA0KDQ4PGBkWFRgVBQQaGxEQGhAPDhwdExIcEhEbHgwLFx4XFhkfCQgUHxQTHR8dHBsaDg0MHhkYBAMCBgkABgAKAAkADAALABAADwAEAAMAAQACAAgABwAOAA0ABQEDAREBAgIRAggDEQMEBA8EEQUNBREFBgYRBgoHEQcOBwgIEQkRCQwJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQMBAxEBAhECCBEAAggDBBEAAwQABA8EDxEABQYABQ0FDREFBhEGChEABgoACQoACQwACwwACxAADxAABwgABw4ADQ4HCBEHDhEJChEJDBELDBELEBENDhEPEBEAAAAAiR/qvp+8AcCQoKW9iR/qPhR6yr93a1U/3fGRPubffD+HrwCyK4QWMYevALJEMY49G0FGPiuEFjEbQUY+QIlyP+Qte7Kp+ea/ZbfAPgAAgL8AAIC/oPxjPi4I3T7VoAM+1aADPg==",
+                                "Type": 1
+                            },
+                            "Height": 0.44528698921203613,
+                            "Radius": 0.45727190375328064
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11733869510961780705
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10804564521700937748
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14279749758092997632,
+                    "Child Entity Order": [
+                        "Entity_[515199362885]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18383055346847516149
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10069959008214722059
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1659010608018252769
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5553839228095478654
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 6687284427583783104,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 2.0,
+                        "Centre of mass offset": [
+                            0.00884084403514862,
+                            -1.1533997058868408,
+                            0.4764697551727295
+                        ],
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            503.5908508300781,
+                            0.0,
+                            0.0,
+                            0.0,
+                            723.7340087890625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            678.48291015625
+                        ],
+                        "Debug Draw Center of Mass": true
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6386394074724743572
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10747689661481842298,
+                    "Parent Entity": "Entity_[510904395589]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.24089908599853516,
+                            -2.384185791015625e-7,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -89.99994659423828
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

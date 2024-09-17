@@ -2,8 +2,8 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{3645191B-9672-5FE3-B462-F88FCC3A1FDD}",
-            "name": "Sprayer_Collider",
+            "id": "{2569DF47-24DB-52AA-9A12-903720FF184E}",
+            "name": "BackpackBoomSprayer_collider",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "RootNode",
@@ -22,7 +22,7 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "Sprayer_Collider",
+            "name": "BackpackBoomSprayer_collider",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
@@ -37,14 +37,14 @@
                     }
                 ]
             },
-            "id": "{0393BC16-1770-507B-8C39-E15FC9DCCD73}"
+            "id": "{64229583-D99F-5588-9ED4-6196C0AB1E6D}"
         },
         {
             "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "default_Sprayer_Collider_8F5D1AE0_DA0F_5DB5_ADB4_8A95CFB52B8E_",
+            "name": "default_BackpackBoomSprayer_collider_8DD6390D_F770_51E1_9F63_8F2CC2763FF8_",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "RootNode.Spray_Collider"
@@ -67,12 +67,12 @@
                     }
                 ]
             },
-            "id": "{8F5D1AE0-DA0F-5DB5-ADB4-8A95CFB52B8E}"
+            "id": "{8DD6390D-F770-51E1-9F63-8F2CC2763FF8}"
         },
         {
             "$type": "PrefabGroup",
-            "name": "Assets/Tractor/Models/Sprayer_Collider_fbx.procprefab",
-            "id": "{52AA1698-7592-54C8-9432-3C1C71E17121}"
+            "name": "BackpackBoomSprayer/Models/BackpackBoomSprayer_collider_fbx.procprefab",
+            "id": "{E1A2A755-C05F-5411-9836-46D10BC19440}"
         }
     ]
 }

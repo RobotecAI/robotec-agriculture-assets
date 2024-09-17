@@ -1,0 +1,162 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TractorWithAirSprayer_Ackermann",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8514050882449027913
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11187766663783712375
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5078348178616197342,
+                "Child Entity Order": [
+                    "Entity_[2912023091712]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11524250028175142961
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 724391458727094445
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9487734574677447838
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12531954302450858289
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14103133988732092842
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11773843804864290442
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11992449336094938655,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2912023091712]": {
+            "Id": "Entity_[2912023091712]",
+            "Name": "TractorWithAirSprayer",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7570068070966570612
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15275356607938527461
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9067792833239994146,
+                    "Child Entity Order": [
+                        "Instance_[487578050361]/ContainerEntity",
+                        "Instance_[15262648694292]/ContainerEntity",
+                        ""
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6292787020345766647,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 520419655365616552
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11707881160644927953
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4917574636786692471
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2155493480637505825
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6991820591499378607
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 520419655365616552,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[15262648694292]": {
+            "Source": "Tractor/Tractor_Ackermann.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[2912023091712]"
+                }
+            ]
+        },
+        "Instance_[2528948807739]": {
+            "Source": "Tractor/Tractor.prefab"
+        },
+        "Instance_[487578050361]": {
+            "Source": "BackpackAirSprayer/BackpackAirSprayer.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[2912023091712]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorFixedJointComponent",
+                    "value": {
+                        "$type": "EditorFixedJointComponent",
+                        "Id": 9365201411909233045,
+                        "Configuration": {
+                            "Local Position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Local Rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Fix Joint Location": false,
+                            "Parent Entity": "../Instance_[15262648694292]/Entity_[617552878647498]",
+                            "Child Entity": "Entity_[672261644089]",
+                            "Breakable": false,
+                            "Maximum Force": 1.0,
+                            "Maximum Torque": 1.0,
+                            "Display Debug": "Selected",
+                            "Select Lead on Snap": true,
+                            "Self Collide": false
+                        },
+                        "Component Mode": {}
+                    }
+                }
+            ]
+        }
+    }
+}

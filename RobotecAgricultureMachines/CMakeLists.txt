@@ -3,7 +3,7 @@
 # otherwise fallback to using RobotecGenericDecorationsAssets
 o3de_find_ancestor_gem_root(gem_root_path gem_name "${CMAKE_CURRENT_SOURCE_DIR}")
 if (NOT gem_name)
-    set(gem_name "RobotecAgricultureMachines")
+    set(gem_name "RobotecAgricultureMachinesAssets")
 endif()
 
 # This indicates to the Builders applications(AssetProcessor, AssetBuilder, AssetBundler)

@@ -53,15 +53,15 @@ ShaderResourceGroup MaterialSrg : SRG_PerMaterial
     // O3DE_GENERATED_MATERIAL_SRG_BEGIN
 float node33_float_input_inValue;
 
-float node25_float_input_inValue;
-
 float node36_float_input_inValue;
 
 float node32_float_input_inValue;
 
-Texture2D node28_sample_texture_2d_inValue;
+float node25_float_input_inValue;
 
-Sampler node28_sample_texture_2d_inSampler
+Texture2D node22_sample_texture_2d_inValue;
+
+Sampler node22_sample_texture_2d_inSampler
 {
 MaxAnisotropy = 16;
 MinFilter = Linear;
@@ -77,9 +77,9 @@ MipLODBias = 0.000000;
 BorderColor = TransparentBlack;
 };
 
-Texture2D node22_sample_texture_2d_inValue;
+Texture2D node28_sample_texture_2d_inValue;
 
-Sampler node22_sample_texture_2d_inSampler
+Sampler node28_sample_texture_2d_inSampler
 {
 MaxAnisotropy = 16;
 MinFilter = Linear;

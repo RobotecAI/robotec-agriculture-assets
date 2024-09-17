@@ -1,7 +1,1 @@
-The assets in this repository are based on the assets from robotec-agriculture-gem.
-The base assets were licensed under Apache 2.0 license and the same license remains for this work.
-
-Most of the base files, i.e., textures and models are copied without any changes. Otherwise, the changes include (but are not limited to):
-- filename changes and corresponding prefabs/materials modifications
-- folder structure changes and corresponding prefabs/materials modifications
-- rotation/position modifications within prefabs
+Prefab, material and assetinfo files were created by Robotec.ai and are licensed under the CC BY NC 4.0 license.

@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "TractorSprayer",
+        "Name": "BackpackBoomSprayer",
         "Components": {
             "EditorDisabledCompositionComponent": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -52,7 +52,7 @@
     "Entities": {
         "Entity_[14331279541119]": {
             "Id": "Entity_[14331279541119]",
-            "Name": "TractorSprayer",
+            "Name": "BoomSprayer",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -61,10 +61,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{47F20252-6FC0-5454-B9B5-8D7DFDE2ED3E}",
-                                    "subId": 269016990
+                                    "guid": "{867300C9-B2F7-5483-8DDF-C904B5887841}",
+                                    "subId": 282130510
                                 },
-                                "assetHint": "tractorsprayer/models/default_tractorsprayer_df00fb51_1ae9_5092_8e75_605b3eb82699_.fbx.azmodel"
+                                "assetHint": "backpackboomsprayer/models/backpackboomsprayer.fbx.azmodel"
                             }
                         }
                     }
@@ -102,8 +102,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{4E2EE3A8-778F-5EF8-8F43-E0DD0C4D74E0}"
-                                            }
+                                                "guid": "{5D9AB7F5-D869-5FD7-97CD-F7ED33AF607F}"
+                                            },
+                                            "assetHint": "backpackboomsprayer/models/materials/tractorsprayerpipes.azmaterial"
                                         }
                                     }
                                 },
@@ -114,9 +115,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{3266DBD2-8F06-55AD-9B77-A913DAB9670E}"
+                                                "guid": "{8D9D16AC-0277-5448-86CC-708E794C630C}"
                                             },
-                                            "assetHint": "tractorsprayer/models/materials/tractorsprayer.azmaterial"
+                                            "assetHint": "backpackboomsprayer/models/materials/tractorsprayer.azmaterial"
                                         }
                                     }
                                 },
@@ -127,9 +128,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{9731019E-31BE-53D6-9476-5ADC38F74A17}"
+                                                "guid": "{0405BBB7-F10D-5911-BBD4-95C61F6BF0CF}"
                                             },
-                                            "assetHint": "tractorsprayer/models/materials/tractorsprayercanisters.azmaterial"
+                                            "assetHint": "backpackboomsprayer/models/materials/tractorsprayercanisters.azmaterial"
                                         }
                                     }
                                 }
@@ -155,11 +156,10 @@
                     "Parent Entity": "Entity_[4807515199602618]",
                     "Transform Data": {
                         "Rotate": [
-                            89.99999237060547,
+                            0.0,
                             0.0,
                             180.0
-                        ],
-                        "UniformScale": 0.009999999776482582
+                        ]
                     }
                 }
             }
@@ -230,14 +230,6 @@
                         "Entity_[93606151376515]"
                     ]
                 },
-                "EditorFixedJointComponent": {
-                    "$type": "EditorFixedJointComponent",
-                    "Id": 6918007479892530992,
-                    "Configuration": {
-                        "Parent Entity": "",
-                        "Child Entity": "Entity_[4807510904635322]"
-                    }
-                },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
                     "Id": 11087093827779145958,
@@ -273,19 +265,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{0365EF8E-252D-55C2-8EE2-2AFDDB1A5836}",
-                                    "subId": 1148775305
+                                    "guid": "{EE6597CF-53BD-5F08-BA63-4CBFDEE3AB33}",
+                                    "subId": 1110039502
                                 },
-                                "assetHint": "tractorsprayer/models/sprayer_collider.fbx.pxmesh"
+                                "assetHint": "backpackboomsprayer/models/backpackboomsprayer_collider.fbx.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{0365EF8E-252D-55C2-8EE2-2AFDDB1A5836}",
-                                        "subId": 1148775305
+                                        "guid": "{EE6597CF-53BD-5F08-BA63-4CBFDEE3AB33}",
+                                        "subId": 1110039502
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "tractorsprayer/models/sprayer_collider.fbx.pxmesh"
+                                    "assetHint": "backpackboomsprayer/models/backpackboomsprayer_collider.fbx.pxmesh"
                                 }
                             }
                         }
@@ -305,25 +297,14 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 200.0,
+                        "Mass": 20.0,
                         "Compute COM": false,
                         "Centre of mass offset": [
-                            -1.100000023841858,
+                            -1.0,
                             -0.0009690809529274702,
-                            0.30000001192092896
+                            0.413108229637146
                         ],
                         "Compute inertia": false,
-                        "Inertia tensor": [
-                            3999.999755859375,
-                            0.0,
-                            0.0,
-                            0.0,
-                            999.9999389648438,
-                            0.0,
-                            0.0,
-                            0.0,
-                            3999.999755859375
-                        ],
                         "Debug Draw Center of Mass": true
                     }
                 },
@@ -491,14 +472,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -681,14 +654,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -792,14 +757,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -905,14 +862,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -1016,14 +965,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1129,14 +1070,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -1240,14 +1173,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1353,14 +1278,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -1464,14 +1381,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1577,14 +1486,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -1688,14 +1589,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -1801,14 +1694,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -1912,14 +1797,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2025,14 +1902,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -2136,14 +2005,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2249,14 +2110,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -2360,14 +2213,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -2473,14 +2318,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -2585,14 +2422,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
                 },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
-                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13881514824202145489,
@@ -2696,14 +2525,6 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8628504538825051487
-                },
-                "SimpleSprayerControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15785663271981372573,
-                    "m_template": {
-                        "$type": "SimpleSprayerControllerComponent",
-                        "Mask": ""
-                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
