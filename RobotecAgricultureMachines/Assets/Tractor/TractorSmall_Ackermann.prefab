@@ -1519,9 +1519,9 @@
                         "$type": "InputConfigurationComponent",
                         "Input Event Bindings": {
                             "assetId": {
-                                "guid": "{E22AFDE8-1030-5E5B-9BCE-207D98F9668B}"
+                                "guid": "{6E7A2570-BDE8-58BF-9A2A-208932D72DBD}"
                             },
-                            "assetHint": "scripts/rosrobot_inputs.inputbindings"
+                            "assetHint": "scripts/ackermanncontrol.inputbindings"
                         }
                     }
                 },
