@@ -8,20 +8,20 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/BackpackSprayer_BaseColor.png",
+        "baseColor.textureMap": "Textures/BackpackAirSprayer_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "metallic.textureMap": "Textures/BackpackSprayer_Metallic.png",
-        "normal.textureMap": "Textures/BackpackSprayer_Normal.png",
+        "metallic.textureMap": "Textures/BackpackAirSprayer_Metallic.png",
+        "normal.textureMap": "Textures/BackpackAirSprayer_Normal.png",
         "opacity.factor": 0.5199999809265137,
         "opacity.mode": "Cutout",
         "roughness.factor": 0.5,
-        "roughness.textureMap": "Textures/BackpackSprayer_Roughness.png",
+        "roughness.textureMap": "Textures/BackpackAirSprayer_Roughness.png",
         "roughness.upperBound": 0.5899999737739563,
-        "specularF0.textureMap": "Textures/BackpackSprayer_Specular.png"
+        "specularF0.textureMap": "Textures/BackpackAirSprayer_Specular.png"
     }
 }

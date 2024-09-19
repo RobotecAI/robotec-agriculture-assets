@@ -102,9 +102,8 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{5D9AB7F5-D869-5FD7-97CD-F7ED33AF607F}"
-                                            },
-                                            "assetHint": "backpackboomsprayer/models/materials/tractorsprayerpipes.azmaterial"
+                                                "guid": "{BDD7BD68-F2DC-52A9-906D-17C8CAD838C5}"
+                                            }
                                         }
                                     }
                                 },
@@ -115,9 +114,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{8D9D16AC-0277-5448-86CC-708E794C630C}"
+                                                "guid": "{FF4B2904-CC53-5DB4-9572-C7FB91354066}"
                                             },
-                                            "assetHint": "backpackboomsprayer/models/materials/tractorsprayer.azmaterial"
+                                            "assetHint": "backpackboomsprayer/models/materials/backpackboomsprayer.azmaterial"
                                         }
                                     }
                                 },
@@ -128,9 +127,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{0405BBB7-F10D-5911-BBD4-95C61F6BF0CF}"
+                                                "guid": "{8FF24835-61B3-534C-AC07-2EE1A42D3DBD}"
                                             },
-                                            "assetHint": "backpackboomsprayer/models/materials/tractorsprayercanisters.azmaterial"
+                                            "assetHint": "backpackboomsprayer/models/materials/backpackboomsprayercanisters.azmaterial"
                                         }
                                     }
                                 }

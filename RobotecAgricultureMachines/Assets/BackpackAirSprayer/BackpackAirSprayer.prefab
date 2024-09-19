@@ -153,9 +153,8 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{D9A142D2-6BE6-5362-9887-448B8C4B0A89}"
-                                            },
-                                            "assetHint": "backpackairsprayer/models/materials/backpacksprayercanister.azmaterial"
+                                                "guid": "{7D5C79A7-6A4B-59A5-B705-2D8D684B9301}"
+                                            }
                                         }
                                     }
                                 },
@@ -166,9 +165,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{B1DA534F-339B-5398-AA22-A1C1E4B2117F}"
+                                                "guid": "{AF61515A-C407-5DDD-8676-20A6DACA083D}"
                                             },
-                                            "assetHint": "backpackairsprayer/models/materials/backpacksprayer.azmaterial"
+                                            "assetHint": "backpackairsprayer/models/materials/backpackairsprayer.azmaterial"
                                         }
                                     }
                                 }
