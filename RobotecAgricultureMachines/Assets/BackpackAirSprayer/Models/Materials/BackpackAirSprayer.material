@@ -1,0 +1,27 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/BackpackAirSprayer_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "Textures/BackpackAirSprayer_Metallic.png",
+        "normal.textureMap": "Textures/BackpackAirSprayer_Normal.png",
+        "opacity.factor": 0.5199999809265137,
+        "opacity.mode": "Cutout",
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/BackpackAirSprayer_Roughness.png",
+        "roughness.upperBound": 0.5899999737739563,
+        "specularF0.textureMap": "Textures/BackpackAirSprayer_Specular.png"
+    }
+}
