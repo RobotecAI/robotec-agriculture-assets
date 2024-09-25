@@ -1,0 +1,166 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Shrub_02c",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7556500775072532578
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2644813269419661047
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9784479981714278942,
+                "Child Entity Order": [
+                    "Entity_[1483997845960]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10586402646280845319
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 14967273813702919499
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13343620449466135034
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17977244376049302788
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14133686057031742705
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4293240626476077283
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1586641319318814724,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1483997845960]": {
+            "Id": "Entity_[1483997845960]",
+            "Name": "Shrub_02c",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10494727479981965579,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{AD18E592-9603-5D6D-B41C-7C06EB45327D}",
+                                    "subId": 269334298
+                                },
+                                "assetHint": "shrubs/models/shrub_02c.fbx.azmodel"
+                            },
+                            "LodType": 1,
+                            "MinimumScreenCoverage": 0.012000000104308128,
+                            "QualityDecayRate": 0.20000000298023224
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7293066852163426372
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5952000653262524122
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10992725354060999714
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17753912680663914094,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15472090672404356743
+                        },
+                        {
+                            "ComponentId": 10494727479981965579,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12354352211639017528,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4186999098110569413
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12354352211639017528,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3302137260
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EBF2E8A8-592A-51BD-8D16-C9F60731E7C8}"
+                                            },
+                                            "assetHint": "shrubs/models/materials/shrub_02_lod0.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 1,
+                                        "materialSlotStableId": 3302137260
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A52384AF-1682-5904-91CE-EA3BAF8EF211}"
+                                            },
+                                            "assetHint": "shrubs/models/materials/shrub_02_lod1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlotsByLodEnabled": true
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9318100973439001746
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8443955529582387540
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8868236809462039742
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15472090672404356743,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}
