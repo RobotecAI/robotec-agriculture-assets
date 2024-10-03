@@ -1,0 +1,26 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/shrub_02_basecolor.jpg",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "Textures/shrub_02_normal.png",
+        "opacity.alphaSource": "Split",
+        "opacity.factor": 0.8399999737739563,
+        "opacity.mode": "Cutout",
+        "opacity.textureMap": "Textures/shrub_02_alpha.png",
+        "roughness.factor": 0.4000000059604645,
+        "roughness.textureMap": "Textures/shrub_02_roughness.png"
+    }
+}
