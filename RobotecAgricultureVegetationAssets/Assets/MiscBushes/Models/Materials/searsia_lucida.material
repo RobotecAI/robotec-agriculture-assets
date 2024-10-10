@@ -1,0 +1,17 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/searsia_lucida_2k_basecolor.jpg",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "Textures/searsia_lucida_2k_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/searsia_lucida_2k_roughness.png"
+    }
+}
