@@ -510,11 +510,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 15943626150538112569
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 18400845553163013171,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "front_left_wheel_link"
                     }
                 },
@@ -975,11 +974,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 17042842245658484727
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 8884512180633433380,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "steering_front_right_link"
                     }
                 },
@@ -1160,11 +1158,10 @@
                         }
                     }
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 13107315013467949178,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "camera_link"
                     }
                 },
@@ -1311,7 +1308,7 @@
         },
         "Entity_[2144213563765]": {
             "Id": "Entity_[2144213563765]",
-            "Name": "Main",
+            "Name": "base_link",
             "Components": {
                 "AckermannControlComponent": {
                     "$type": "GenericComponentWrapper",
@@ -1525,11 +1522,10 @@
                         }
                     }
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 17454947008284794006,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
                         },
@@ -2075,11 +2071,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 5126885784711496537
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 10217151214545355326,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "rear_left_wheel_link"
                     }
                 },
@@ -2363,11 +2358,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 9189975762703516568
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 17024750193437531931,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "imu_link"
                     }
                 },
@@ -2676,11 +2670,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 13586417165348488354
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 2077528803724257862,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "lidar_link"
                     }
                 },
@@ -3696,11 +3689,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 48486961307455627
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 14968439931745743747,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "rear_right_wheel_link"
                     }
                 },
@@ -3800,11 +3792,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 16081566637946852442
                 },
-                "ROS2FrameComponent": {
-                    "$type": "GenericComponentWrapper",
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
                     "Id": 1051957187874694912,
-                    "m_template": {
-                        "$type": "ROS2FrameComponent",
+                    "ROS2FrameConfiguration": {
                         "Frame Name": "steering_front_left_link"
                     }
                 },
