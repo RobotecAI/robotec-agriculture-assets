@@ -1,0 +1,235 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "WildRooibos_a",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 997175315091863685
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5650665141848847413
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 310981715989885051,
+                "Child Entity Order": [
+                    "Entity_[16644614851182]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 353519379817716134
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 16062153993721334310
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13162157524128900913
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8508148656557510213
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16892311573215599032
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2876711371517921746
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 18222895046868843126,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[16644614851182]": {
+            "Id": "Entity_[16644614851182]",
+            "Name": "WildRooibos_a",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16410512629621899893
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17561339449391475203
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10225623032948170790,
+                    "Child Entity Order": [
+                        "Entity_[16648909818478]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9800752406184788558,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11916424425736299459
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11157328959429682746
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3009039387231869449
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11755695450631882133
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4554582153262852897
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11916424425736299459,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[16648909818478]": {
+            "Id": "Entity_[16648909818478]",
+            "Name": "visual",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15524452015667217792,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7A154F77-3053-58D4-9166-1D383C14434D}",
+                                    "subId": 275329513
+                                },
+                                "assetHint": "miscbushes/models/wild_rooibos_bush.fbx.azmodel"
+                            },
+                            "LodType": 1,
+                            "QualityDecayRate": 0.10000000149011612
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7493017738561256338
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7527411264200594435
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16497980661409664217
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15974459461116630231
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17999791550911077858
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6873591737937635874,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 144860779
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EAD5B4E2-C583-5C57-A29D-02FF2C60AF37}"
+                                            },
+                                            "assetHint": "miscbushes/models/materials/wild_rooibos_bush.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3196371145
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EAD5B4E2-C583-5C57-A29D-02FF2C60AF37}"
+                                            },
+                                            "assetHint": "miscbushes/models/materials/wild_rooibos_bush.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3463425470
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EAD5B4E2-C583-5C57-A29D-02FF2C60AF37}"
+                                            },
+                                            "assetHint": "miscbushes/models/materials/wild_rooibos_bush.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "lodIndex": 0,
+                                        "materialSlotStableId": 3463425470
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EAD5B4E2-C583-5C57-A29D-02FF2C60AF37}"
+                                            },
+                                            "assetHint": "miscbushes/models/materials/wild_rooibos_bush.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17373971209911024737
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14046808939828640386
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1943426243465422302
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1934027366511980825,
+                    "Parent Entity": "Entity_[16644614851182]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -0.008575439453125
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
