@@ -67,8 +67,7 @@
                     "Id": 9067792833239994146,
                     "Child Entity Order": [
                         "Instance_[487578050361]/ContainerEntity",
-                        "Instance_[15262648694292]/ContainerEntity",
-                        ""
+                        "Instance_[15262648694292]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -95,6 +94,16 @@
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 6991820591499378607
+                },
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 3525397300079328348,
+                    "ROS2FrameConfiguration": {
+                        "Namespace Configuration": {
+                            "Namespace Strategy": 1
+                        },
+                        "Frame Name": "odom"
+                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

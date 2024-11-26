@@ -1747,6 +1747,16 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 7187548806575870943
                 },
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 15248291265606087312,
+                    "ROS2FrameConfiguration": {
+                        "Namespace Configuration": {
+                            "Namespace Strategy": 1
+                        },
+                        "Frame Name": "odom"
+                    }
+                },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 4259607956125475638,
@@ -1977,7 +1987,7 @@
                         "Namespace Configuration": {
                             "Namespace Strategy": 1
                         },
-                        "Frame Name": "base_link"
+                        "Frame Name": "base_link_gt"
                     }
                 },
                 "ROS2OdometrySensorComponent": {
@@ -1989,7 +1999,7 @@
                             "Publishers": {
                                 "nav_msgs::msg::Odometry": {
                                     "Type": "nav_msgs::msg::Odometry",
-                                    "Topic": "odom"
+                                    "Topic": "odom_gt"
                                 }
                             }
                         }
