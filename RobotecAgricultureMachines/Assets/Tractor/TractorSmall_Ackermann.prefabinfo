@@ -1,0 +1,12 @@
+<ObjectStream version="3">
+    <Class name="PrefabInfoAsset" version="2" type="{548BEA17-CE71-4861-A00B-E7F8670EF8D5}">
+        <Class name="AssetData" field="BaseClass1" version="1" type="{AF3F7D32-1536-422A-89F3-A11E1F5B5A9C}"/>
+        <Class name="PrefabInfo" field="Config" version="1" type="{018EAA3A-0ECE-7EFC-A9A5-960B8DF05312}">
+            <Class name="AZStd::string" field="Name" value="TractorSmall_Ackermann" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+            <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+            <Class name="AZ::Uuid" field="UniqueKey" value="2dc2d0d8-d045-4174-8103-ef34ab4e4668" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+            <Class name="AZStd::string" field="AssetType" value="ego" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+
+        </Class>
+    </Class>
+</ObjectStream>
