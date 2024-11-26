@@ -1,7 +1,7 @@
 {
-    "gem_name": "RobotecAgricultureMachines",
+    "gem_name": "RobotecAgricultureMachinesAssets",
     "version": "2.0.0",
-    "display_name": "RobotecAgricultureMachines",
+    "display_name": "RobotecAgricultureMachinesAssets",
     "license": "CC BY-NC 4.0 Robotec.ai",
     "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
     "origin": "RobotecAI",
@@ -12,7 +12,7 @@
         "Gem"
     ],
     "user_tags": [
-        "RobotecAgricultureMachines",
+        "RobotecAgricultureMachinesAssets",
         "Tractor",
         "Sprayer"
     ],
@@ -28,5 +28,5 @@
     "repo_uri": "",
     "compatible_engines": [],
     "engine_api_dependencies": [],
-    "restricted": "RobotecAgricultureMachines"
+    "restricted": "RobotecAgricultureMachinesAssets"
 }
