@@ -1532,6 +1532,21 @@
                         }
                     }
                 },
+                "ROS2ContactSensorComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 732833754135317280,
+                    "m_template": {
+                        "$type": "ROS2ContactSensorComponent",
+                        "SensorConfiguration": {
+                            "Publishers": {
+                                "gazebo_msgs::msg::ContactsState": {
+                                    "Type": "gazebo_msgs::msg::ContactsState",
+                                    "Topic": "contact_sensor"
+                                }
+                            }
+                        }
+                    }
+                },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 17454947008284794006,
@@ -2702,7 +2717,18 @@
                         },
                         "lidarCore": {
                             "lidarConfiguration": {
+                                "lidarModelName": "Velodyne Puck (VLP-16)",
                                 "lidarImplementation": "RobotecGPULidar",
+                                "LidarParameters": {
+                                    "Name": "Velodyne Puck (VLP-16)",
+                                    "Layers": 16,
+                                    "Points per layer": 1800,
+                                    "Min vertical angle": 15.0,
+                                    "Max vertical angle": -15.0,
+                                    "Noise Parameters": {
+                                        "Distance noise standard deviation base": 0.029999999329447746
+                                    }
+                                },
                                 "ExcludedEntities": [
                                     "Entity_[2303127353717]"
                                 ]
