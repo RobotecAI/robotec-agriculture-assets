@@ -6,7 +6,7 @@
             <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
             <Class name="AZ::Uuid" field="UniqueKey" value="9cf6c801-18fc-4cdd-8869-4477cf824317" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="static" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="CompostBag/Models/CompostBag.fbx" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>

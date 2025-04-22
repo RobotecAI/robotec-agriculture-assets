@@ -2,11 +2,11 @@
     <Class name="PrefabInfoAsset" version="2" type="{548BEA17-CE71-4861-A00B-E7F8670EF8D5}">
         <Class name="AssetData" field="BaseClass1" version="1" type="{AF3F7D32-1536-422A-89F3-A11E1F5B5A9C}"/>
         <Class name="PrefabInfo" field="Config" version="1" type="{018EAA3A-0ECE-7EFC-A9A5-960B8DF05312}">
-            <Class name="AZStd::string" field="Name" value="Shrub_02c" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+            <Class name="AZStd::string" field="Name" value="BackpackBoomSprayer" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
             <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-            <Class name="AZ::Uuid" field="UniqueKey" value="825851a7-2364-4d63-bb0c-b9b9c91d65fd" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+            <Class name="AZ::Uuid" field="UniqueKey" value="1ab8326a-15c6-42de-88d5-b9fbb0700774" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="static" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="Shrubs/Models/shrub_02c.fbx" type="{F8B771DF-5BED-4570-99BC-441A124BDF9F}"/>
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackBoomSprayer/Models/BackpackBoomSprayer.fbx" type="{11F5F34D-8210-4425-BAA3-E4FCA41EE41D}"/>            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>
