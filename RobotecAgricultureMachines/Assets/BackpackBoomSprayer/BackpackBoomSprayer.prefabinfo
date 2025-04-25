@@ -6,7 +6,7 @@
             <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
             <Class name="AZ::Uuid" field="UniqueKey" value="1ab8326a-15c6-42de-88d5-b9fbb0700774" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="static" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackBoomSprayer/Models/BackpackBoomSprayer.fbx" type="{11F5F34D-8210-4425-BAA3-E4FCA41EE41D}"/>            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackBoomSprayer/Models/BackpackBoomSprayer.fbx" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>

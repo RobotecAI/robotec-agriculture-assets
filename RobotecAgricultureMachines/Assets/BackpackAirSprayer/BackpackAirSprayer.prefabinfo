@@ -6,7 +6,7 @@
             <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
             <Class name="AZ::Uuid" field="UniqueKey" value="32fd1833-2d1f-47bf-83ce-a0b2ec4be8dd" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="RobotecAgricultureMachines/Assets/BackpackBoomSprayer" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackAirSprayer/Models/BackpackAirSprayer.fbx" type="{8FC5264A-7476-4A6E-889D-3C389B4C5AAD}"/>            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackAirSprayer/Models/BackpackAirSprayer.fbx" type="{C4937623-02F0-49D9-85D8-50CBBD04C551}"/>            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackAirSprayer/Models/BackpackAirSprayer.fbx" type="{3CCBB804-98C3-443B-B1F2-34752428B9E4}"/>            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="BackpackAirSprayer/Models/BackpackAirSprayer.fbx" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>

@@ -6,7 +6,7 @@
             <Class name="AZStd::string" field="PrefabPath" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
             <Class name="AZ::Uuid" field="UniqueKey" value="2c282cff-cd18-4acb-b862-76896777e12f" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
             <Class name="AZStd::string" field="AssetType" value="static" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="Shrubs/Models/shrub_02a.fbx" type="{21FB840B-F937-4985-8A67-16F228FAD605}"/>
+            <Class name="AZStd::string" field="RepresentationSourceAssetPath" value="Shrubs/Models/shrub_02a.fbx" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
         </Class>
     </Class>
 </ObjectStream>
