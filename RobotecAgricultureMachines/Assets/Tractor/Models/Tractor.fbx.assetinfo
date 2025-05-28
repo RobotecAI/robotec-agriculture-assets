@@ -1,0 +1,789 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{546EA3D4-0571-5AEB-B7B7-20257590A9F6}",
+            "name": "Tractor",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Tractor_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Tractor",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Tractor_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{74E34AA9-BBC0-51C7-AEAE-9AF3F4B75DD4}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_899731D3_9450_52C0_96C7_C99B47C5D720_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wheel_FR_Cover"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{899731D3-9450-52C0-96C7-C99B47C5D720}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_C34BCAE4_E4D8_5A4D_B478_247A684E8AC8_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wheel_RL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{C34BCAE4-E4D8-5A4D-B478-247A684E8AC8}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_84B85B4C_7DFA_5621_9F28_9F2BC2D69FEB_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wheel_FL_Cover"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{84B85B4C-7DFA-5621-9F28-9F2BC2D69FEB}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_9BE3D1EB_BE09_5CB1_A452_62BD0A7A4596_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wheel_FR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{9BE3D1EB-BE09-5CB1-A452-62BD0A7A4596}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_66786555_F16A_51C7_8BBB_00B0BC2E0C0C_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wheel_FL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{66786555-F16A-51C7-8BBB-00B0BC2E0C0C}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_EBC78550_F01B_54E7_871D_0B556677A13F_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Steering_Wheel"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{EBC78550-F01B-54E7-871D-0B556677A13F}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_A08CF94B_3F4C_5948_9D56_49409C9D9854_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Tractor_Alpha"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{A08CF94B-3F4C-5948-9D56-49409C9D9854}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_7ED5BE2E_40B5_5D45_BB6B_E9A94E8962F7_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Tractor_Body"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{7ED5BE2E-40B5-5D45-BB6B-E9A94E8962F7}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_F598E424_715F_58FF_BD5E_26EC3AF4CD42_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Tractor_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{F598E424-715F-58FF-BD5E-26EC3AF4CD42}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_2B921BA8_3F13_5F37_A184_C0CFAE1CB619_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Rear_Middle_Lights"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{2B921BA8-3F13-5F37-A184-C0CFAE1CB619}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_C9EC61E3_27B2_5E33_ABA6_C0DA324BC6A8_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Rear_Top_Lights"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{C9EC61E3-27B2-5E33-ABA6-C0DA324BC6A8}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_05F327A7_1CB4_5782_B155_187D494E2721_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Front_Top_Lights"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{05F327A7-1CB4-5782-B155-187D494E2721}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_34E4BE11_E1C1_5B16_952C_5719FD9D9383_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.F_Axis"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{34E4BE11-E1C1-5B16-952C-5719FD9D9383}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_4BEE27F6_181B_5F94_8ACC_518A17BFD568_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Front_Bottom_Lights"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{4BEE27F6-181B-5F94-8ACC-518A17BFD568}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_6BC7CC92_0C3D_5BDE_824A_77584AB63602_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Front_Middle_Lights"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL",
+                    "RootNode.Wheel_RR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{6BC7CC92-0C3D-5BDE-824A-77584AB63602}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Tractor_F08124FD_9E44_58F7_A6DA_89F1F7DE4F93_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wheel_RR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.F_Axis",
+                    "RootNode.Front_Bottom_Lights",
+                    "RootNode.Front_Middle_Lights",
+                    "RootNode.Front_Top_Lights",
+                    "RootNode.Rear_Middle_Lights",
+                    "RootNode.Rear_Top_Lights",
+                    "RootNode.Steering_Wheel",
+                    "RootNode.Tractor_Alpha",
+                    "RootNode.Tractor_Body",
+                    "RootNode.Tractor_phys",
+                    "RootNode.Wheel_FL",
+                    "RootNode.Wheel_FL_Cover",
+                    "RootNode.Wheel_FR",
+                    "RootNode.Wheel_FR_Cover",
+                    "RootNode.Wheel_RL"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{F08124FD-9E44-58F7-A6DA-89F1F7DE4F93}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Tractor/Models/Tractor_fbx.procprefab",
+            "id": "{79FE7339-67C9-5CB1-89FE-627A22C6F71C}"
+        }
+    ]
+}

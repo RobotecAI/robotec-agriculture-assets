@@ -122,6 +122,11 @@
             "Source": "BackpackAirSprayer/BackpackAirSprayer.prefab",
             "Patches": [
                 {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[2912023091712]"
+                },
+                {
                     "op": "add",
                     "path": "/Entities/Entity_[672261644089]/Components/EditorFixedJointComponent",
                     "value": {
@@ -150,16 +155,6 @@
                         },
                         "Component Mode": {}
                     }
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[2912023091712]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.831008791923523
                 }
             ]
         }

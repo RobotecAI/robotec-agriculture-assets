@@ -206,9 +206,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 278795950
+                                    "subId": 268692226
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_99875db5_3e36_5947_9509_9c831ca8e1e0_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_491c3069_015f_598c_98e8_02480ea343bd_.fbx.azmodel"
                             }
                         }
                     }
@@ -282,8 +282,7 @@
                             0.0,
                             0.0,
                             179.9999237060547
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -595,9 +594,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 275319395
+                                    "subId": 283172524
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_206b6cff_b4f5_5795_afbe_f0675d6d9892_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_d2169e00_9270_517a_b8f3_b1c8034848f8_.fbx.azmodel"
                             }
                         }
                     }
@@ -671,8 +670,7 @@
                             0.0,
                             0.0,
                             89.99994659423828
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -689,9 +687,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 274342326
+                                    "subId": 279415628
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_e3b80743_af2f_5346_850c_536e3ca0773b_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_cd68c05d_b803_5323_ac19_630b4c404e6a_.fbx.azmodel"
                             }
                         }
                     }
@@ -754,10 +752,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10242213120464371760,
-                    "Parent Entity": "Entity_[2152803498357]",
-                    "Transform Data": {
-                        "UniformScale": 100.0
-                    }
+                    "Parent Entity": "Entity_[2152803498357]"
                 }
             }
         },
@@ -1859,9 +1854,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 279027520
+                                    "subId": 273217679
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_696f3d8b_21fd_5478_a088_a319cb1841cd_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_25261061_8987_5fb3_84ba_d5ccc8e35027_.fbx.azmodel"
                             }
                         }
                     }
@@ -1935,8 +1930,7 @@
                             0.0,
                             0.0,
                             179.9999237060547
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -2170,9 +2164,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 278798293
+                                    "subId": 273321896
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_62636d8f_8e3d_5f97_adf7_b0de23b4d8a0_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_66a8d827_2a88_50cd_aa5d_6a0f0c6c04ae_.fbx.azmodel"
                             }
                         }
                     }
@@ -2246,8 +2240,7 @@
                             0.0,
                             0.0,
                             90.00001525878906
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -2498,9 +2491,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 285197301
+                                    "subId": 271778495
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_03663d01_416f_5739_b5dd_4a575ea9dbc5_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_a22311d6_2653_512c_b6ff_3a05d1aaa791_.fbx.azmodel"
                             }
                         }
                     }
@@ -2574,8 +2567,7 @@
                             0.0,
                             0.0,
                             -90.00005340576172
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -3128,9 +3120,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 269907944
+                                    "subId": 269899245
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_fcdcb982_b71b_5a76_b568_211d5c71fab5_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_42926389_e2d9_5fd9_a504_d569f508ba2c_.fbx.azmodel"
                             }
                         }
                     }
@@ -3193,10 +3185,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 9691836915906462813,
-                    "Parent Entity": "Entity_[2152803498357]",
-                    "Transform Data": {
-                        "UniformScale": 100.0
-                    }
+                    "Parent Entity": "Entity_[2152803498357]"
                 }
             }
         },
@@ -3212,9 +3201,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 276996220
+                                    "subId": 281112094
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_888b2621_231f_5d37_a1a5_d5d93310d01b_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_51670d62_98bc_53a7_ae4a_f03f2d018522_.fbx.azmodel"
                             }
                         }
                     }
@@ -3288,8 +3277,7 @@
                             0.0,
                             0.0,
                             -90.00005340576172
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -3908,9 +3896,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 272988244
+                                    "subId": 283408867
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_1f6d52fb_33ed_56ae_a163_c8b625c7ffe0_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_f6cecead_16a6_599e_8c32_30f31d54b03b_.fbx.azmodel"
                             }
                         }
                     }
@@ -3984,8 +3972,7 @@
                             0.0,
                             0.0,
                             89.99998474121094
-                        ],
-                        "UniformScale": 100.0
+                        ]
                     }
                 }
             }
@@ -4144,9 +4131,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{A018AC62-AF77-50DD-BB9F-236AE0DA5568}",
-                                    "subId": 275717130
+                                    "subId": 277394022
                                 },
-                                "assetHint": "tractor/models/default_tractorsmall_b29d79f3_5baf_59a8_a729_9c48dfa6a609_.fbx.azmodel"
+                                "assetHint": "tractor/models/default_tractorsmall_d34d82bd_8cb5_5127_84ca_9cc1e79285af_.fbx.azmodel"
                             }
                         }
                     }
@@ -4209,10 +4196,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13725531809332688801,
-                    "Parent Entity": "Entity_[2152803498357]",
-                    "Transform Data": {
-                        "UniformScale": 100.0
-                    }
+                    "Parent Entity": "Entity_[2152803498357]"
                 }
             }
         },
