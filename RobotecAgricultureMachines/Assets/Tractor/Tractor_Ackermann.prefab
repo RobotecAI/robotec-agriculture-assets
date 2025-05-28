@@ -1363,7 +1363,7 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            -90.0
+                            180.0
                         ]
                     }
                 }
@@ -1503,7 +1503,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 12995247012056142800,
-                    "Parent Entity": "Entity_[617625893091530]"
+                    "Parent Entity": "Entity_[617625893091530]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 },
                 "WheelControllerComponent": {
                     "$type": "GenericComponentWrapper",
@@ -1557,7 +1564,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6395482883692995662,
-                    "Parent Entity": "Entity_[617625893091530]"
+                    "Parent Entity": "Entity_[617625893091530]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.11536429822444916,
+                            0.0
+                        ]
+                    }
                 }
             }
         },
@@ -1608,7 +1622,7 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            180.0
+                            90.0
                         ]
                     }
                 }
@@ -1871,11 +1885,10 @@
                     "$type": "EditorMeshColliderComponent",
                     "Id": 9567900641072537590,
                     "ColliderConfiguration": {
-                        "Rotation": [
+                        "Position": [
                             0.0,
                             0.0,
-                            1.0,
-                            -0.0
+                            -0.8799999952316284
                         ],
                         "MaterialSlots": {
                             "Slots": [
@@ -1889,23 +1902,23 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{8A5C5018-7B6A-59F9-B5D4-CEC07E92CACD}",
-                                    "subId": 152672717
+                                    "guid": "{358A8EC5-127E-524C-8F59-462E55505646}",
+                                    "subId": 3009036137
                                 },
-                                "assetHint": "tractor/models/tractor_collider.fbx.pxmesh"
+                                "assetHint": "tractor/models/tractor.fbx.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{8A5C5018-7B6A-59F9-B5D4-CEC07E92CACD}",
-                                        "subId": 152672717
+                                        "guid": "{358A8EC5-127E-524C-8F59-462E55505646}",
+                                        "subId": 3009036137
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "tractor/models/tractor_collider.fbx.pxmesh"
+                                    "assetHint": "tractor/models/tractor.fbx.pxmesh"
                                 },
                                 "AssetScale": [
                                     1.0,
-                                    0.8999999761581421,
+                                    0.6000000238418579,
                                     1.0
                                 ]
                             }
@@ -2069,7 +2082,7 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            180.0
+                            -90.0
                         ]
                     }
                 }
@@ -2122,7 +2135,7 @@
                         "Rotate": [
                             0.0,
                             0.0,
-                            -90.0
+                            180.0
                         ]
                     }
                 }
@@ -2652,7 +2665,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 18357194417598377629,
-                    "Parent Entity": "Entity_[617638777993418]"
+                    "Parent Entity": "Entity_[617638777993418]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 },
                 "WheelControllerComponent": {
                     "$type": "GenericComponentWrapper",
@@ -2796,14 +2816,9 @@
                     "Parent Entity": "Entity_[617681727666378]",
                     "Transform Data": {
                         "Translate": [
-                            0.699999988079071,
-                            0.0032233595848083496,
+                            0.0,
+                            -0.699999988079071,
                             0.0
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -89.99998474121094
                         ]
                     }
                 }
@@ -2891,14 +2906,9 @@
                     "Parent Entity": "Entity_[617681727666378]",
                     "Transform Data": {
                         "Translate": [
-                            -0.699999988079071,
-                            0.0032232999801635742,
+                            0.0,
+                            0.699999988079071,
                             0.0
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -89.99998474121094
                         ]
                     }
                 }
@@ -3162,13 +3172,8 @@
                     "Transform Data": {
                         "Translate": [
                             2.7298500537872314,
-                            0.014011383056640625,
+                            0.0,
                             -0.1654047966003418
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -90.0
                         ]
                     }
                 }
@@ -3384,13 +3389,8 @@
                     "Transform Data": {
                         "Translate": [
                             0.0,
-                            -9.5367431640625e-7,
+                            -0.11536425352096558,
                             0.0
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            0.00002390565350651741
                         ]
                     }
                 }
@@ -3477,15 +3477,9 @@
                     "Transform Data": {
                         "Translate": [
                             0.08207130432128906,
-                            -9.5367431640625e-7,
+                            0.11536429822444916,
                             9.98377799987793e-7
-                        ],
-                        "Rotate": [
-                            -89.99996185302734,
-                            -89.99993133544922,
-                            0.0
-                        ],
-                        "UniformScale": 0.01000010035932064
+                        ]
                     }
                 }
             }
@@ -3573,13 +3567,7 @@
                             -0.06666231155395508,
                             0.0,
                             -2.384185791015625e-7
-                        ],
-                        "Rotate": [
-                            -89.99998474121094,
-                            89.99993896484375,
-                            0.0
-                        ],
-                        "UniformScale": 0.01000010035932064
+                        ]
                     }
                 }
             }
@@ -3664,16 +3652,10 @@
                     "Parent Entity": "Entity_[617578648451274]",
                     "Transform Data": {
                         "Translate": [
-                            -0.11009454727172852,
                             0.0,
+                            -0.11536429822444916,
                             0.0
-                        ],
-                        "Rotate": [
-                            -89.99998474121094,
-                            -89.99998474121094,
-                            0.0
-                        ],
-                        "UniformScale": 0.01000010035932064
+                        ]
                     }
                 }
             }
@@ -3763,11 +3745,10 @@
                             -3.2782554626464844e-7
                         ],
                         "Rotate": [
-                            -89.99998474121094,
-                            89.99995422363281,
-                            0.0
-                        ],
-                        "UniformScale": 0.01000010035932064
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
                     }
                 }
             }
@@ -3852,11 +3833,10 @@
                     "Parent Entity": "Entity_[617651662895306]",
                     "Transform Data": {
                         "Rotate": [
-                            90.00040435791016,
+                            0.0,
                             0.00018612264830153435,
-                            -132.2100067138672
-                        ],
-                        "UniformScale": 0.01000010035932064
+                            0.0
+                        ]
                     }
                 }
             }
@@ -3938,15 +3918,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3333688614263875400,
-                    "Parent Entity": "Entity_[617651662895306]",
-                    "Transform Data": {
-                        "Rotate": [
-                            90.00000762939453,
-                            0.0,
-                            180.0
-                        ],
-                        "UniformScale": 0.01000010035932064
-                    }
+                    "Parent Entity": "Entity_[617651662895306]"
                 }
             }
         },
@@ -4029,17 +4001,11 @@
                     "Id": 6652638564559358901,
                     "Parent Entity": "Entity_[617522813876426]",
                     "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            -0.1575937271118164,
-                            1.1920928955078125e-7
-                        ],
                         "Rotate": [
-                            -89.99999237060547,
+                            0.0,
                             0.000010245283192489296,
-                            1.221332930623209e-12
-                        ],
-                        "UniformScale": 0.01000010035932064
+                            0.0
+                        ]
                     }
                 }
             }
@@ -4121,15 +4087,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 16391705700786321722,
-                    "Parent Entity": "Entity_[617651662895306]",
-                    "Transform Data": {
-                        "Rotate": [
-                            90.00000762939453,
-                            0.0,
-                            180.0
-                        ],
-                        "UniformScale": 0.01000010035932064
-                    }
+                    "Parent Entity": "Entity_[617651662895306]"
                 }
             }
         },
@@ -4216,13 +4174,7 @@
                             0.000001430511474609375,
                             0.7366952896118164,
                             -1.1796876192092896
-                        ],
-                        "Rotate": [
-                            -89.99999237060547,
-                            89.99999237060547,
-                            0.0
-                        ],
-                        "UniformScale": 0.01000010035932064
+                        ]
                     }
                 }
             }
@@ -4306,17 +4258,11 @@
                     "Id": 3390054699585557271,
                     "Parent Entity": "Entity_[617703202502858]",
                     "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.15907812118530273,
-                            1.1920928955078125e-7
-                        ],
                         "Rotate": [
-                            -89.99999237060547,
+                            0.0,
                             0.000010245283192489296,
-                            1.221332930623209e-12
-                        ],
-                        "UniformScale": 0.01000010035932064
+                            0.0
+                        ]
                     }
                 }
             }
