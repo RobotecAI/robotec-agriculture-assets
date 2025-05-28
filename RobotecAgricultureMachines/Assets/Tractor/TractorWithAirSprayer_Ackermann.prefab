@@ -66,9 +66,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 9067792833239994146,
                     "Child Entity Order": [
-                        "Instance_[487578050361]/ContainerEntity",
                         "Instance_[15262648694292]/ContainerEntity",
-                        ""
+                        "Instance_[2181476669182]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -115,10 +114,7 @@
                 }
             ]
         },
-        "Instance_[2528948807739]": {
-            "Source": "Tractor/Tractor.prefab"
-        },
-        "Instance_[487578050361]": {
+        "Instance_[2181476669182]": {
             "Source": "BackpackAirSprayer/BackpackAirSprayer.prefab",
             "Patches": [
                 {
@@ -127,11 +123,41 @@
                     "value": "../Entity_[2912023091712]"
                 },
                 {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 0.01271149516105652
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorColliderComponent/ColliderConfiguration/Position/1",
+                    "value": -1.1194034814834595
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorColliderComponent/ShapeConfiguration/Box/Configuration/1",
+                    "value": 0.6801071763038635
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorColliderComponent_2/ColliderConfiguration/Position/0",
+                    "value": 0.010252952575683594
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorColliderComponent_2/ColliderConfiguration/Position/1",
+                    "value": -1.0494035482406616
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorColliderComponent_2/ColliderConfiguration/Position/2",
+                    "value": 0.49245357513427734
+                },
+                {
                     "op": "add",
                     "path": "/Entities/Entity_[672261644089]/Components/EditorFixedJointComponent",
                     "value": {
                         "$type": "EditorFixedJointComponent",
-                        "Id": 9365201411909233045,
+                        "Id": 14201827214595859509,
                         "Configuration": {
                             "Local Position": [
                                 0.0,
@@ -155,6 +181,21 @@
                         },
                         "Component Mode": {}
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.008597106672823429
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": -1.230044960975647
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.4737108647823334
                 }
             ]
         }
