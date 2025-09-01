@@ -1,4 +1,3 @@
 {
-    "materialType": "spraying.materialtype",
-    "materialTypeVersion": 1
+    "materialType": "./spraying.materialtype"
 }

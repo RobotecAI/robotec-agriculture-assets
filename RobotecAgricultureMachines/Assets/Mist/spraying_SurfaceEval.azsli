@@ -23,11 +23,13 @@ Surface EvaluateSurface_spraying(
     VsOutput IN,
     float3 positionWS,
     real3 normalWS,
-    real3 tangents[UvSetCount],
-    real3 bitangents[UvSetCount],
+    float3 tangents[UvSetCount],
+    float3 bitangents[UvSetCount],
     float2 uvs[UvSetCount],
     bool isFrontFace,
-    bool isDisplacementClipped)
+    bool isDisplacementClipped,
+    float4 uvDxDy,
+    bool customDerivatives)
 {
     const float3 bitangent = cross((float3)IN.normal, (float3)IN.tangent);
     const float3 O3DE_MC_POSITION = (float3)IN.position;
@@ -38,6 +40,11 @@ Surface EvaluateSurface_spraying(
     const float3 O3DE_MC_NORMAL_WS = normalWS;
     const float3 O3DE_MC_TANGENT_WS = tangents[0];
     const float3 O3DE_MC_BITANGENT_WS = bitangents[0];
+#if ENABLE_VERTEX_COLOR
+    const float4 O3DE_MC_COLOR = IN.color0;
+#else
+    const float4 O3DE_MC_COLOR = float4(1.0f, 1.0f, 1.0f, 1.0f);
+#endif
     #define O3DE_MC_UV(index) uvs[clamp(index, 0, UvSetCount-1)];
 
     // m_placeHolder keeps MaterialSrg from being compiled out when iterating on graphs
@@ -62,10 +69,14 @@ float node23_add_outValue = node23_add_inValue1 + node23_add_inValue2;
 float node20_float2_from_values_inX = node21_uv_outU;
 float node20_float2_from_values_inY = node23_add_outValue;
 float2 node20_float2_from_values_outValue = {(float)node20_float2_from_values_inX, (float)node20_float2_from_values_inY};
+const ColorSpaceId node28_sample_texture_2d_inColorSpaceFrom = ColorSpaceId::LinearSRGB;
+const ColorSpaceId node28_sample_texture_2d_inColorSpaceTo = ColorSpaceId::ACEScg;
 float2 node28_sample_texture_2d_inUV = node20_float2_from_values_outValue;
-float4 node28_sample_texture_2d_outColor = MaterialSrg::node28_sample_texture_2d_inValue.Sample(MaterialSrg::node28_sample_texture_2d_inSampler, (float2)node28_sample_texture_2d_inUV);
+float4 node28_sample_texture_2d_outColor = TransformColor4(MaterialSrg::node28_sample_texture_2d_inValue.Sample(MaterialSrg::node28_sample_texture_2d_inSampler, (float2)node28_sample_texture_2d_inUV), node28_sample_texture_2d_inColorSpaceFrom, node28_sample_texture_2d_inColorSpaceTo);
+const ColorSpaceId node22_sample_texture_2d_inColorSpaceFrom = ColorSpaceId::LinearSRGB;
+const ColorSpaceId node22_sample_texture_2d_inColorSpaceTo = ColorSpaceId::ACEScg;
 float2 node22_sample_texture_2d_inUV = node20_float2_from_values_outValue;
-float4 node22_sample_texture_2d_outColor = MaterialSrg::node22_sample_texture_2d_inValue.Sample(MaterialSrg::node22_sample_texture_2d_inSampler, (float2)node22_sample_texture_2d_inUV);
+float4 node22_sample_texture_2d_outColor = TransformColor4(MaterialSrg::node22_sample_texture_2d_inValue.Sample(MaterialSrg::node22_sample_texture_2d_inSampler, (float2)node22_sample_texture_2d_inUV), node22_sample_texture_2d_inColorSpaceFrom, node22_sample_texture_2d_inColorSpaceTo);
 float node22_sample_texture_2d_outA = node22_sample_texture_2d_outColor.a;
 float node31_multiply_inValue1 = node32_float_input_outValue;
 float node31_multiply_inValue2 = node22_sample_texture_2d_outA;
@@ -99,6 +110,7 @@ float3 inClearCoatNormal = {0, 0, 0};
     surface.position = positionWS;
     surface.vertexNormal = normalWS;
     surface.normal = normalize(o_normal_override_enabled ? GetWorldSpaceNormal((real2)inNormal, normalWS, tangents[0], bitangents[0]) : normalWS);
+    surface.normal *= real(mad(isFrontFace, 2.0, -1.0));
     surface.roughnessLinear = inRoughness;
     surface.SetAlbedoAndSpecularF0(inBaseColor, inSpecularF0Factor, inMetallic);
     surface.CalculateRoughnessA();
@@ -137,6 +149,47 @@ float3 inClearCoatNormal = {0, 0, 0};
     return surface;
 }
 
+// helper function to keep compatible with the previous version
+// because dxc compiler doesn't allow default parameters on functions with overloads
+Surface EvaluateSurface_spraying(
+    VsOutput IN,
+    float3 positionWS,
+    real3 normalWS,
+    float3 tangents[UvSetCount],
+    float3 bitangents[UvSetCount],
+    float2 uvs[UvSetCount],
+    bool isFrontFace,
+    bool isDisplacementClipped)
+{
+    return EvaluateSurface_spraying(
+        IN,
+        positionWS,
+        normalWS,
+        tangents,
+        bitangents,
+        uvs,
+        isFrontFace,
+        isDisplacementClipped,
+        float4(0.0f, 0.0f, 0.0f, 0.0f),
+        false); 
+}
+
+
+Surface EvaluateSurface_spraying(VsOutput IN, PixelGeometryData geoData, float4 uvDxDy, bool customDerivatives)
+{
+    return EvaluateSurface_spraying(
+        IN,
+        geoData.positionWS,
+        geoData.vertexNormal,
+        geoData.tangents,
+        geoData.bitangents,
+        geoData.uvs,
+        geoData.isFrontFace,
+        geoData.isDisplacementClipped,
+        uvDxDy,
+        customDerivatives);
+}
+
 Surface EvaluateSurface_spraying(VsOutput IN, PixelGeometryData geoData)
 {
     return EvaluateSurface_spraying(
@@ -147,5 +200,7 @@ Surface EvaluateSurface_spraying(VsOutput IN, PixelGeometryData geoData)
         geoData.bitangents,
         geoData.uvs,
         geoData.isFrontFace,
-        geoData.isDisplacementClipped);
+        geoData.isDisplacementClipped,
+        float4(0.0f, 0.0f, 0.0f, 0.0f),
+        false);
 }

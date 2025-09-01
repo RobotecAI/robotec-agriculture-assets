@@ -17,6 +17,10 @@
 #define ENABLE_PARALLAX 0
 #endif
 
+#ifndef ENABLE_VERTEX_COLOR
+#define ENABLE_VERTEX_COLOR 1
+#endif
+
 #ifndef UvSetCount
 #define UvSetCount 2
 #endif
@@ -25,8 +29,8 @@
 #include <Atom/Features/PBR/LightingOptions.azsli>
 #include <Atom/Features/PBR/AlphaUtils.azsli>
 
-#include <scenesrg.srgi>
-#include <viewsrg.srgi>
+#include <scenesrg_all.srgi>
+#include <viewsrg_all.srgi>
 #include <Atom/Features/PBR/DefaultObjectSrg.azsli>
 #include <Atom/RPI/ShaderResourceGroups/DefaultDrawSrg.azsli>
 
@@ -39,6 +43,10 @@
 #include <Atom/Feature/Common/Assets/Shaders/Materials/MaterialFunctions/ParallaxDepth.azsli>
 COMMON_OPTIONS_PARALLAX()
 #endif
+ 
+// O3DE_GENERATED_INCLUDES_BEGIN
+#include <Atom/Features/ColorManagement/TransformColor.azsli>
+// O3DE_GENERATED_INCLUDES_END
 
 option bool o_normal_override_enabled = false;
 option bool o_opacity_affects_specular_factor = true;
@@ -51,13 +59,13 @@ ShaderResourceGroup MaterialSrg : SRG_PerMaterial
     bool m_placeHolder;
 
     // O3DE_GENERATED_MATERIAL_SRG_BEGIN
-float node33_float_input_inValue;
+float node25_float_input_inValue;
 
 float node36_float_input_inValue;
 
 float node32_float_input_inValue;
 
-float node25_float_input_inValue;
+float node33_float_input_inValue;
 
 Texture2D node22_sample_texture_2d_inValue;
 
@@ -97,9 +105,6 @@ BorderColor = TransparentBlack;
 
     // O3DE_GENERATED_MATERIAL_SRG_END
 }
- 
-// O3DE_GENERATED_INCLUDES_BEGIN
-// O3DE_GENERATED_INCLUDES_END
 
 // O3DE_GENERATED_CLASSES_BEGIN
 // O3DE_GENERATED_CLASSES_END
@@ -186,8 +191,10 @@ float node23_add_outValue = node23_add_inValue1 + node23_add_inValue2;
 float node20_float2_from_values_inX = node21_uv_outU;
 float node20_float2_from_values_inY = node23_add_outValue;
 float2 node20_float2_from_values_outValue = {(float)node20_float2_from_values_inX, (float)node20_float2_from_values_inY};
+const ColorSpaceId node22_sample_texture_2d_inColorSpaceFrom = ColorSpaceId::LinearSRGB;
+const ColorSpaceId node22_sample_texture_2d_inColorSpaceTo = ColorSpaceId::ACEScg;
 float2 node22_sample_texture_2d_inUV = node20_float2_from_values_outValue;
-float4 node22_sample_texture_2d_outColor = MaterialSrg::node22_sample_texture_2d_inValue.Sample(MaterialSrg::node22_sample_texture_2d_inSampler, (float2)node22_sample_texture_2d_inUV);
+float4 node22_sample_texture_2d_outColor = TransformColor4(MaterialSrg::node22_sample_texture_2d_inValue.Sample(MaterialSrg::node22_sample_texture_2d_inSampler, (float2)node22_sample_texture_2d_inUV), node22_sample_texture_2d_inColorSpaceFrom, node22_sample_texture_2d_inColorSpaceTo);
 float node22_sample_texture_2d_outA = node22_sample_texture_2d_outColor.a;
 float node35_multiply_inValue1 = node22_sample_texture_2d_outA;
 float node35_multiply_inValue2 = node33_float_input_outValue;
