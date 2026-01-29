@@ -1,0 +1,1084 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{2A31B6A7-5EB6-56AE-AEB7-3742B298B1A4}",
+            "name": "Body",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ]
+            },
+            "export method": 1,
+            "ConvexDecompositionParams": {
+                "MaxConvexHulls": 12,
+                "MaxNumVerticesPerConvexHull": 32,
+                "Resolution": 80000
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Harvester",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{37DC40AF-B0FA-5D02-AFA7-AD3479361EAC}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{E818C565-8B93-4805-A5A8-78B63CF661B6}",
+            "name": "Header",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{DEC2A77C-53B8-405B-8F1D-7FBDA4FB1040}",
+            "name": "WheelFL",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{84F2F02B-5DF5-4CB4-B09F-CA74326AEEC6}",
+            "name": "WheelRL",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{AF18BCDE-B72A-4EC1-B273-84AA0FEEFE1D}",
+            "name": "WheelFR",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{117C3724-D588-446D-B196-79AAEF9E5ECE}",
+            "name": "WheelRR",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.WheelRR_phys",
+                    "RootNode.WheelRR_phys.DefaultMaterial",
+                    "RootNode.WheelRR_phys.UVMap",
+                    "RootNode.WheelRR_phys.custom_properties",
+                    "RootNode.WheelRR_phys.transform"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body.Body01",
+                    "RootNode.Body.Body02",
+                    "RootNode.Body.Body03",
+                    "RootNode.Body.UV0",
+                    "RootNode.Body.Wheels",
+                    "RootNode.Body.Window",
+                    "RootNode.Body.custom_properties",
+                    "RootNode.Body.transform",
+                    "RootNode.Body_phys",
+                    "RootNode.Body_phys.DefaultMaterial",
+                    "RootNode.Body_phys.UVMap",
+                    "RootNode.Body_phys.custom_properties",
+                    "RootNode.Body_phys.transform",
+                    "RootNode.Header",
+                    "RootNode.Header.Header",
+                    "RootNode.Header.UVMap",
+                    "RootNode.Header.custom_properties",
+                    "RootNode.Header.transform",
+                    "RootNode.Header_phys",
+                    "RootNode.Header_phys.DefaultMaterial",
+                    "RootNode.Header_phys.UVMap",
+                    "RootNode.Header_phys.custom_properties",
+                    "RootNode.Header_phys.transform",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL.UVMap",
+                    "RootNode.WheelFL.Wheels",
+                    "RootNode.WheelFL.custom_properties",
+                    "RootNode.WheelFL.transform",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFL_phys.DefaultMaterial",
+                    "RootNode.WheelFL_phys.UVMap",
+                    "RootNode.WheelFL_phys.custom_properties",
+                    "RootNode.WheelFL_phys.transform",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR.UVMap",
+                    "RootNode.WheelFR.Wheels",
+                    "RootNode.WheelFR.custom_properties",
+                    "RootNode.WheelFR.transform",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelFR_phys.DefaultMaterial",
+                    "RootNode.WheelFR_phys.UVMap",
+                    "RootNode.WheelFR_phys.custom_properties",
+                    "RootNode.WheelFR_phys.transform",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL.UVMap",
+                    "RootNode.WheelRL.Wheels",
+                    "RootNode.WheelRL.custom_properties",
+                    "RootNode.WheelRL.transform",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRL_phys.DefaultMaterial",
+                    "RootNode.WheelRL_phys.UVMap",
+                    "RootNode.WheelRL_phys.custom_properties",
+                    "RootNode.WheelRL_phys.transform",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR.UVMap",
+                    "RootNode.WheelRR.Wheels",
+                    "RootNode.WheelRR.custom_properties",
+                    "RootNode.WheelRR.transform"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_BBC3BE91_083A_5C01_A371_71BAF4055450_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelRL_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{BBC3BE91-083A-5C01-A371-71BAF4055450}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_CB34E7F7_5D9B_5AA3_85E0_24639ADB4EF9_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelFL_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{CB34E7F7-5D9B-5AA3-85E0-24639ADB4EF9}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_9EF7B57A_B3D2_53D2_B0B1_B1CF68B51818_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelRR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{9EF7B57A-B3D2-53D2-B0B1-B1CF68B51818}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_9CA35FBD_21FE_5E96_AF62_F07C29C61D5E_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelFR"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{9CA35FBD-21FE-5E96-AF62-F07C29C61D5E}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_31EACDE0_0242_54A6_8AB2_B17FB7517DDE_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Header_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{31EACDE0-0242-54A6-8AB2-B17FB7517DDE}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_0AA77F21_E73F_57BB_BB61_985B2F304AEE_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Header"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{0AA77F21-E73F-57BB-BB61-985B2F304AEE}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_4F42D87A_0CFA_5F30_81D9_8531AE5FA509_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Body_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{4F42D87A-0CFA-5F30-81D9-8531AE5FA509}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_D9A6895B_2C5E_57FF_8CC3_4399E714C042_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelFL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{D9A6895B-2C5E-57FF-8CC3-4399E714C042}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_E1196A18_C35B_53BD_AB31_5ABDAFF4E8E6_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelFR_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{E1196A18-C35B-53BD-AB31-5ABDAFF4E8E6}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_74AA8A11_B63C_5532_A9DE_4896E55F9509_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Body"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{74AA8A11-B63C-5532-A9DE-4896E55F9509}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_5AB58BD4_E3F6_531B_B96A_CDCEC8D1382B_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelRL"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR",
+                    "RootNode.WheelRR_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{5AB58BD4-E3F6-531B-B96A-CDCEC8D1382B}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Harvester_6F8C1562_502A_5428_84C3_0F841EB2C9A1_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.WheelRR_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Body",
+                    "RootNode.Body_phys",
+                    "RootNode.Header",
+                    "RootNode.Header_phys",
+                    "RootNode.WheelFL",
+                    "RootNode.WheelFL_phys",
+                    "RootNode.WheelFR",
+                    "RootNode.WheelFR_phys",
+                    "RootNode.WheelRL",
+                    "RootNode.WheelRL_phys",
+                    "RootNode.WheelRR"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{6F8C1562-502A-5428-84C3-0F841EB2C9A1}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Harvester/Models/Harvester_fbx.procprefab",
+            "id": "{21835E9C-A6EC-5774-B29A-45984FB54E0D}"
+        }
+    ]
+}

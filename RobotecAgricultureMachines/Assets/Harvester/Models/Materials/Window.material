@@ -1,0 +1,27 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Textures/Window_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "Textures/Window_Metallic.png",
+        "normal.textureMap": "Textures/Window_Normal.png",
+        "opacity.alphaSource": "Split",
+        "opacity.factor": 1.0,
+        "opacity.mode": "Blended",
+        "opacity.textureMap": "Textures/Window_BaseColor.png",
+        "roughness.factor": 0.5,
+        "roughness.textureMap": "Textures/Window_Roughness.png"
+    }
+}
