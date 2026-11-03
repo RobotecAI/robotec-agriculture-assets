@@ -1,4 +1,6 @@
-Prefab, material and assetinfo files were created by Robotec.ai and are licensed under the CC BY NC 4.0 license.
+Prefab, material and assetinfo files were created by Robotec.ai and are licensed under the CC BY-NC 4.0 license.
 
-The "Harvester" model was obtained and modified from Sketchfab (https://sketchfab.com/3d-models/harvester-near-completion-cc4bf1104f2840ddad4b3aaa68fc3f74) and it has CC Attribution Licence (https://creativecommons.org/licenses/by/4.0/)
+The "Harvester" model is based on "Harvester Near Completion" by webbsketches (https://sketchfab.com/3d-models/harvester-near-completion-cc4bf1104f2840ddad4b3aaa68fc3f74), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); it was modified by Robotec.ai.
+
+The shader include files in Assets/Mist (spraying_*.azsli) carry the Open 3D Engine header and are licensed under Apache-2.0 OR MIT (https://github.com/o3de/o3de/blob/development/LICENSE.txt), not under CC BY-NC 4.0.
 
