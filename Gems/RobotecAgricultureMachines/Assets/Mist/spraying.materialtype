@@ -28,6 +28,22 @@
                         }
                     },
                     {
+                        "name": "base_color_1",
+                        "displayName": "Base Color (1)",
+                        "description": "Base Color",
+                        "type": "SamplerState",
+                        "defaultValue": {
+                            "m_anisotropyMax": 16,
+                            "m_filterMin": "Linear",
+                            "m_filterMag": "Linear",
+                            "m_filterMip": "Linear"
+                        },
+                        "connection": {
+                            "type": "ShaderInput",
+                            "name": "node22_sample_texture_2d_inSampler"
+                        }
+                    },
+                    {
                         "name": "cast_shadows",
                         "displayName": "Cast Shadows",
                         "description": "Whether to cast shadows onto other objects.",
@@ -169,6 +185,22 @@
                         }
                     },
                     {
+                        "name": "normal_1",
+                        "displayName": "Normal (1)",
+                        "description": "Normal",
+                        "type": "SamplerState",
+                        "defaultValue": {
+                            "m_anisotropyMax": 16,
+                            "m_filterMin": "Linear",
+                            "m_filterMag": "Linear",
+                            "m_filterMip": "Linear"
+                        },
+                        "connection": {
+                            "type": "ShaderInput",
+                            "name": "node28_sample_texture_2d_inSampler"
+                        }
+                    },
+                    {
                         "name": "opacity_affects_specular_factor",
                         "displayName": "Opacity Affects Specular Factor",
                         "description": "Opacity Affects Specular Factor",
@@ -235,7 +267,14 @@
     },
     "lightingModel": "Standard",
     "materialShaderCode": "spraying_Common.azsli",
+    "materialShaderDefines": "spraying_Defines.azsli",
     "functors": [
+        {
+            "type": "Lua",
+            "args": {
+                "file": "@gemroot:MaterialCanvas@/Assets/MaterialCanvas/GraphData/Nodes/MaterialOutputs/StandardPBR/HandleDoubleSided.lua"
+            }
+        },
         {
             "type": "Lua",
             "args": {
